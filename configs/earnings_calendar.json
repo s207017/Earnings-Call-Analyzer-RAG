@@ -1,0 +1,6862 @@
+[
+  {
+    "ticker": "AAPL",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "AAPL",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "ACN",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "ADBE",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "AIR.PA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "ALL",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "AMS.PA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "AMZN",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "AXP",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "BAC",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "BAM",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "BBVA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "BKNG",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "BMW.DE",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "BP",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "C",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "CAH",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "CAP.PA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "COST",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "CRM",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "CSCO",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "DB",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "DIS",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "EDF.PA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "ELV",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "ENGI.PA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "F",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "GM",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "GOOGL",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "IBM",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "LULU",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "MA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "MAR",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "MC.PA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "META",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "MSFT",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "NFLX",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "OR.PA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "ORCL",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "PYPL",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "SHEL",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "SIE.DE",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "TSLA",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "UNH",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2018Q1",
+    "earnings_date": "2018-02-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2018Q2",
+    "earnings_date": "2018-05-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2018Q3",
+    "earnings_date": "2018-08-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2018Q4",
+    "earnings_date": "2018-11-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2019Q1",
+    "earnings_date": "2019-02-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2019Q2",
+    "earnings_date": "2019-05-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2019Q3",
+    "earnings_date": "2019-08-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2019Q4",
+    "earnings_date": "2019-11-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2020Q1",
+    "earnings_date": "2020-02-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2020Q2",
+    "earnings_date": "2020-05-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2020Q3",
+    "earnings_date": "2020-08-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2020Q4",
+    "earnings_date": "2020-11-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2021Q1",
+    "earnings_date": "2021-02-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2021Q2",
+    "earnings_date": "2021-05-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2021Q3",
+    "earnings_date": "2021-08-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2021Q4",
+    "earnings_date": "2021-11-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2022Q1",
+    "earnings_date": "2022-02-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2022Q2",
+    "earnings_date": "2022-05-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2022Q3",
+    "earnings_date": "2022-08-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2022Q4",
+    "earnings_date": "2022-11-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2023Q1",
+    "earnings_date": "2023-02-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2023Q2",
+    "earnings_date": "2023-05-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2023Q3",
+    "earnings_date": "2023-08-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2023Q4",
+    "earnings_date": "2023-11-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2024Q1",
+    "earnings_date": "2024-02-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2024Q2",
+    "earnings_date": "2024-05-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2024Q3",
+    "earnings_date": "2024-08-15"
+  },
+  {
+    "ticker": "WMT",
+    "quarter": "2024Q4",
+    "earnings_date": "2024-11-15"
+  }
+]

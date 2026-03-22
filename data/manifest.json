@@ -1,0 +1,7765 @@
+[
+  {
+    "file_path": "data/raw/WMT/2020Q4.txt",
+    "ticker": "WMT",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2019Q4.txt",
+    "ticker": "GM",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2021Q4.txt",
+    "ticker": "WMT",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2020Q4.txt",
+    "ticker": "ADBE",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2020Q2.txt",
+    "ticker": "BP",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2018Q4.txt",
+    "ticker": "BP",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2021Q4.txt",
+    "ticker": "BP",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2022Q4.txt",
+    "ticker": "DB",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2018Q3.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2021Q4.txt",
+    "ticker": "ADBE",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2021Q1.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2020Q4.txt",
+    "ticker": "BP",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2023Q1.txt",
+    "ticker": "DB",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2023Q4.txt",
+    "ticker": "BP",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2020Q1.txt",
+    "ticker": "BP",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2020Q1.txt",
+    "ticker": "DB",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2022Q4.txt",
+    "ticker": "BP",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2020Q2.txt",
+    "ticker": "BAC",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/OR.PA/2022Q4.txt",
+    "ticker": "OR.PA",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2019Q4.txt",
+    "ticker": "BP",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2021Q1.txt",
+    "ticker": "BP",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2021Q2.txt",
+    "ticker": "BP",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2022Q2.txt",
+    "ticker": "DB",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2019Q2.txt",
+    "ticker": "BAC",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2020Q1.txt",
+    "ticker": "BBVA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2018Q4.txt",
+    "ticker": "C",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2021Q3.txt",
+    "ticker": "DB",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2020Q3.txt",
+    "ticker": "BP",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2020Q4.txt",
+    "ticker": "JPM",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2021Q4.txt",
+    "ticker": "JPM",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2019Q2.txt",
+    "ticker": "C",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2020Q4.txt",
+    "ticker": "BBVA",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2021Q2.txt",
+    "ticker": "DB",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2023Q2.txt",
+    "ticker": "DB",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2021Q3.txt",
+    "ticker": "BP",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2020Q4.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2020Q3.txt",
+    "ticker": "C",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2021Q1.txt",
+    "ticker": "DB",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2020Q2.txt",
+    "ticker": "DB",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2019Q3.txt",
+    "ticker": "DB",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2022Q3.txt",
+    "ticker": "DB",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2022Q4.txt",
+    "ticker": "BBVA",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2020Q4.txt",
+    "ticker": "BAC",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2023Q4.txt",
+    "ticker": "C",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2023Q3.txt",
+    "ticker": "DB",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2018Q2.txt",
+    "ticker": "BAC",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2020Q2.txt",
+    "ticker": "C",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2022Q1.txt",
+    "ticker": "BAC",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2020Q1.txt",
+    "ticker": "BAC",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2023Q4.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2019Q2.txt",
+    "ticker": "BBVA",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2023Q1.txt",
+    "ticker": "BAC",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2023Q3.txt",
+    "ticker": "BAC",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2019Q3.txt",
+    "ticker": "BAC",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2018Q1.txt",
+    "ticker": "BAC",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2021Q4.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2019Q3.txt",
+    "ticker": "BP",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2020Q2.txt",
+    "ticker": "BBVA",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2018Q2.txt",
+    "ticker": "MAR",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2023Q2.txt",
+    "ticker": "C",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2020Q3.txt",
+    "ticker": "BBVA",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2019Q4.txt",
+    "ticker": "BBVA",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2021Q1.txt",
+    "ticker": "BAC",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2024Q1.txt",
+    "ticker": "C",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2021Q1.txt",
+    "ticker": "C",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2022Q2.txt",
+    "ticker": "BBVA",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2024Q2.txt",
+    "ticker": "C",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2021Q2.txt",
+    "ticker": "BBVA",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2021Q1.txt",
+    "ticker": "NVDA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2018Q3.txt",
+    "ticker": "MAR",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2020Q4.txt",
+    "ticker": "C",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2020Q1.txt",
+    "ticker": "MA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2022Q3.txt",
+    "ticker": "BAC",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2024Q1.txt",
+    "ticker": "BBVA",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2018Q2.txt",
+    "ticker": "COST",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2023Q1.txt",
+    "ticker": "C",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2022Q3.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2018Q2.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2018Q4.txt",
+    "ticker": "BBVA",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2019Q2.txt",
+    "ticker": "BP",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2022Q1.txt",
+    "ticker": "DB",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2020Q3.txt",
+    "ticker": "DB",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2019Q3.txt",
+    "ticker": "MAR",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2020Q4.txt",
+    "ticker": "DB",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2022Q4.txt",
+    "ticker": "BAC",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2021Q4.txt",
+    "ticker": "C",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2024Q2.txt",
+    "ticker": "DB",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2023Q2.txt",
+    "ticker": "BAC",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2018Q4.txt",
+    "ticker": "MAR",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2022Q4.txt",
+    "ticker": "C",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2021Q4.txt",
+    "ticker": "BAC",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2023Q4.txt",
+    "ticker": "BAC",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2023Q2.txt",
+    "ticker": "BBVA",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2020Q2.txt",
+    "ticker": "MAR",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2021Q1.txt",
+    "ticker": "BBVA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2020Q1.txt",
+    "ticker": "MAR",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2024Q4.txt",
+    "ticker": "CRM",
+    "quarter": "2024Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/OR.PA/2023Q2.txt",
+    "ticker": "OR.PA",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2019Q4.txt",
+    "ticker": "BAC",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2019Q3.txt",
+    "ticker": "C",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2021Q3.txt",
+    "ticker": "MC.PA",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2018Q1.txt",
+    "ticker": "MAR",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2022Q4.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2022Q4.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2021Q3.txt",
+    "ticker": "BBVA",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2018Q4.txt",
+    "ticker": "JPM",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2019Q1.txt",
+    "ticker": "UNH",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2024Q2.txt",
+    "ticker": "BBVA",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2020Q4.txt",
+    "ticker": "IBM",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2018Q2.txt",
+    "ticker": "DB",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2024Q1.txt",
+    "ticker": "WMT",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2023Q3.txt",
+    "ticker": "C",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2024Q4.txt",
+    "ticker": "CAH",
+    "quarter": "2024Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2018Q4.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2020Q3.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2023Q2.txt",
+    "ticker": "MC.PA",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2018Q1.txt",
+    "ticker": "DB",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2020Q1.txt",
+    "ticker": "C",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2018Q1.txt",
+    "ticker": "UNH",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2018Q3.txt",
+    "ticker": "UNH",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2023Q4.txt",
+    "ticker": "WMT",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2024Q2.txt",
+    "ticker": "BP",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2018Q3.txt",
+    "ticker": "BAC",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2019Q2.txt",
+    "ticker": "DB",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2018Q4.txt",
+    "ticker": "DB",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2023Q2.txt",
+    "ticker": "BP",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2020Q3.txt",
+    "ticker": "MAR",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2021Q4.txt",
+    "ticker": "ELV",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2020Q2.txt",
+    "ticker": "ELV",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2024Q2.txt",
+    "ticker": "BAC",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2020Q4.txt",
+    "ticker": "COST",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2023Q1.txt",
+    "ticker": "BBVA",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2019Q4.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2020Q4.txt",
+    "ticker": "ELV",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2019Q2.txt",
+    "ticker": "MAR",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2022Q4.txt",
+    "ticker": "ELV",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2022Q4.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2018Q2.txt",
+    "ticker": "BP",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2018Q3.txt",
+    "ticker": "BBVA",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2019Q1.txt",
+    "ticker": "BAC",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2023Q2.txt",
+    "ticker": "WMT",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2021Q2.txt",
+    "ticker": "JPM",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2020Q1.txt",
+    "ticker": "AXP",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2024Q2.txt",
+    "ticker": "WMT",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2021Q3.txt",
+    "ticker": "BAC",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2021Q4.txt",
+    "ticker": "CRM",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2024Q1.txt",
+    "ticker": "CRM",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2022Q2.txt",
+    "ticker": "C",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2022Q2.txt",
+    "ticker": "BP",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2018Q2.txt",
+    "ticker": "C",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2019Q4.txt",
+    "ticker": "C",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2019Q1.txt",
+    "ticker": "MAR",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2018Q4.txt",
+    "ticker": "IBM",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2022Q2.txt",
+    "ticker": "ELV",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2019Q2.txt",
+    "ticker": "ELV",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2023Q3.txt",
+    "ticker": "WMT",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2020Q2.txt",
+    "ticker": "JPM",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2020Q2.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2024Q3.txt",
+    "ticker": "WMT",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2021Q2.txt",
+    "ticker": "AXP",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2018Q3.txt",
+    "ticker": "BP",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2019Q4.txt",
+    "ticker": "WMT",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2019Q4.txt",
+    "ticker": "ELV",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2018Q2.txt",
+    "ticker": "UNH",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2019Q4.txt",
+    "ticker": "BKNG",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2022Q2.txt",
+    "ticker": "MC.PA",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2018Q3.txt",
+    "ticker": "CAH",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2021Q1.txt",
+    "ticker": "GM",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2022Q3.txt",
+    "ticker": "C",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2021Q3.txt",
+    "ticker": "ELV",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2020Q4.txt",
+    "ticker": "AXP",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2018Q4.txt",
+    "ticker": "BKNG",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2018Q4.txt",
+    "ticker": "COST",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2024Q1.txt",
+    "ticker": "BAC",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2018Q4.txt",
+    "ticker": "BAC",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2019Q2.txt",
+    "ticker": "MC.PA",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2020Q4.txt",
+    "ticker": "GM",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2019Q2.txt",
+    "ticker": "GM",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SHEL/2024Q1.txt",
+    "ticker": "SHEL",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2022Q2.txt",
+    "ticker": "BAC",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2021Q3.txt",
+    "ticker": "AXP",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SHEL/2022Q4.txt",
+    "ticker": "SHEL",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2021Q2.txt",
+    "ticker": "BAC",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2019Q1.txt",
+    "ticker": "DB",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2024Q1.txt",
+    "ticker": "ADBE",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2024Q3.txt",
+    "ticker": "CAH",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2022Q1.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SHEL/2024Q2.txt",
+    "ticker": "SHEL",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2019Q3.txt",
+    "ticker": "BBVA",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2021Q3.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2022Q2.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2019Q3.txt",
+    "ticker": "UNH",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2022Q1.txt",
+    "ticker": "ELV",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAC/2020Q3.txt",
+    "ticker": "BAC",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2022Q1.txt",
+    "ticker": "WMT",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2018Q2.txt",
+    "ticker": "IBM",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2021Q1.txt",
+    "ticker": "MC.PA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2020Q1.txt",
+    "ticker": "IBM",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2020Q1.txt",
+    "ticker": "ELV",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2021Q1.txt",
+    "ticker": "AXP",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2020Q2.txt",
+    "ticker": "BKNG",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2019Q4.txt",
+    "ticker": "MAR",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2020Q3.txt",
+    "ticker": "BKNG",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2018Q3.txt",
+    "ticker": "COST",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2018Q3.txt",
+    "ticker": "DB",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2020Q2.txt",
+    "ticker": "IBM",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2020Q3.txt",
+    "ticker": "ELV",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2023Q4.txt",
+    "ticker": "F",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2018Q1.txt",
+    "ticker": "C",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2018Q3.txt",
+    "ticker": "IBM",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2020Q1.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2024Q3.txt",
+    "ticker": "COST",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2018Q2.txt",
+    "ticker": "F",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2019Q1.txt",
+    "ticker": "BP",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2022Q3.txt",
+    "ticker": "BBVA",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2019Q1.txt",
+    "ticker": "CRM",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2024Q2.txt",
+    "ticker": "CRM",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2022Q1.txt",
+    "ticker": "ADBE",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2024Q4.txt",
+    "ticker": "WMT",
+    "quarter": "2024Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2018Q1.txt",
+    "ticker": "GM",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2019Q1.txt",
+    "ticker": "JPM",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2024Q2.txt",
+    "ticker": "ADBE",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2020Q2.txt",
+    "ticker": "MA",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2024Q2.txt",
+    "ticker": "MA",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2018Q4.txt",
+    "ticker": "AXP",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2022Q3.txt",
+    "ticker": "AXP",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2023Q4.txt",
+    "ticker": "ALL",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2022Q2.txt",
+    "ticker": "GM",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2023Q3.txt",
+    "ticker": "MA",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2022Q4.txt",
+    "ticker": "CSCO",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2023Q3.txt",
+    "ticker": "BKNG",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2018Q3.txt",
+    "ticker": "AXP",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2018Q4.txt",
+    "ticker": "META",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2022Q1.txt",
+    "ticker": "GM",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2020Q2.txt",
+    "ticker": "GM",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2024Q1.txt",
+    "ticker": "UNH",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2023Q2.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2018Q3.txt",
+    "ticker": "META",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2023Q2.txt",
+    "ticker": "ALL",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2024Q1.txt",
+    "ticker": "ACN",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AIR.PA/2022Q4.txt",
+    "ticker": "AIR.PA",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2019Q4.txt",
+    "ticker": "COST",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2021Q3.txt",
+    "ticker": "COST",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2023Q3.txt",
+    "ticker": "ELV",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2019Q4.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2020Q4.txt",
+    "ticker": "BKNG",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2019Q1.txt",
+    "ticker": "IBM",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2024Q1.txt",
+    "ticker": "MA",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2021Q2.txt",
+    "ticker": "META",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2023Q3.txt",
+    "ticker": "ALL",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2018Q4.txt",
+    "ticker": "WMT",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2023Q4.txt",
+    "ticker": "MA",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2023Q2.txt",
+    "ticker": "META",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2022Q1.txt",
+    "ticker": "MA",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2021Q1.txt",
+    "ticker": "IBM",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2024Q1.txt",
+    "ticker": "JPM",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2018Q1.txt",
+    "ticker": "META",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2019Q3.txt",
+    "ticker": "BKNG",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2024Q1.txt",
+    "ticker": "DB",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2021Q1.txt",
+    "ticker": "ADBE",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2024Q2.txt",
+    "ticker": "COST",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2019Q1.txt",
+    "ticker": "C",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2020Q1.txt",
+    "ticker": "BKNG",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2022Q4.txt",
+    "ticker": "AXP",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2019Q1.txt",
+    "ticker": "META",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2020Q3.txt",
+    "ticker": "GM",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2021Q1.txt",
+    "ticker": "CRM",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2020Q2.txt",
+    "ticker": "COST",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2018Q3.txt",
+    "ticker": "BKNG",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2020Q2.txt",
+    "ticker": "MC.PA",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2022Q2.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2020Q1.txt",
+    "ticker": "JPM",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2019Q3.txt",
+    "ticker": "META",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2022Q1.txt",
+    "ticker": "COST",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2022Q1.txt",
+    "ticker": "CSCO",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2023Q4.txt",
+    "ticker": "ADBE",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2022Q1.txt",
+    "ticker": "C",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2022Q4.txt",
+    "ticker": "WMT",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2023Q3.txt",
+    "ticker": "GM",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2021Q3.txt",
+    "ticker": "CRM",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2018Q3.txt",
+    "ticker": "MSFT",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2022Q3.txt",
+    "ticker": "CSCO",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2021Q2.txt",
+    "ticker": "BKNG",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2021Q4.txt",
+    "ticker": "AXP",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2019Q3.txt",
+    "ticker": "ELV",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2018Q2.txt",
+    "ticker": "META",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2023Q2.txt",
+    "ticker": "GM",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2018Q1.txt",
+    "ticker": "ALL",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2022Q1.txt",
+    "ticker": "BP",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2020Q3.txt",
+    "ticker": "AXP",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2020Q2.txt",
+    "ticker": "F",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2021Q3.txt",
+    "ticker": "JPM",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2021Q1.txt",
+    "ticker": "WMT",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2024Q2.txt",
+    "ticker": "GM",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2019Q1.txt",
+    "ticker": "BBVA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2020Q4.txt",
+    "ticker": "MAR",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2023Q2.txt",
+    "ticker": "BKNG",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2020Q4.txt",
+    "ticker": "MA",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2018Q4.txt",
+    "ticker": "UNH",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2018Q2.txt",
+    "ticker": "BKNG",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2022Q4.txt",
+    "ticker": "ALL",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2022Q3.txt",
+    "ticker": "WMT",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2022Q4.txt",
+    "ticker": "ADBE",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2021Q2.txt",
+    "ticker": "WMT",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2019Q1.txt",
+    "ticker": "ALL",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2023Q3.txt",
+    "ticker": "ADBE",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2023Q3.txt",
+    "ticker": "META",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2023Q1.txt",
+    "ticker": "WMT",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2019Q2.txt",
+    "ticker": "META",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2021Q4.txt",
+    "ticker": "MA",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2022Q2.txt",
+    "ticker": "META",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2024Q3.txt",
+    "ticker": "JPM",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2024Q2.txt",
+    "ticker": "F",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2022Q3.txt",
+    "ticker": "ALL",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SHEL/2022Q2.txt",
+    "ticker": "SHEL",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2020Q3.txt",
+    "ticker": "CAH",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2020Q4.txt",
+    "ticker": "META",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2021Q3.txt",
+    "ticker": "BKNG",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2021Q1.txt",
+    "ticker": "ELV",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2018Q1.txt",
+    "ticker": "F",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2020Q1.txt",
+    "ticker": "PYPL",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2020Q2.txt",
+    "ticker": "AXP",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2023Q3.txt",
+    "ticker": "CRM",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SHEL/2023Q3.txt",
+    "ticker": "SHEL",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2019Q4.txt",
+    "ticker": "F",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2020Q1.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2021Q1.txt",
+    "ticker": "MA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2021Q3.txt",
+    "ticker": "WMT",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2021Q4.txt",
+    "ticker": "META",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2023Q3.txt",
+    "ticker": "JPM",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2022Q3.txt",
+    "ticker": "ADBE",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2021Q2.txt",
+    "ticker": "CSCO",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2024Q3.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2022Q3.txt",
+    "ticker": "BP",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2024Q3.txt",
+    "ticker": "CRM",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2023Q3.txt",
+    "ticker": "COST",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2020Q2.txt",
+    "ticker": "DIS",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2018Q3.txt",
+    "ticker": "C",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2018Q2.txt",
+    "ticker": "GM",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2022Q3.txt",
+    "ticker": "ELV",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2023Q1.txt",
+    "ticker": "ALL",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2024Q2.txt",
+    "ticker": "ALL",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2019Q4.txt",
+    "ticker": "MA",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2022Q2.txt",
+    "ticker": "MA",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2021Q4.txt",
+    "ticker": "CSCO",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2021Q2.txt",
+    "ticker": "GM",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2019Q2.txt",
+    "ticker": "BKNG",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2021Q4.txt",
+    "ticker": "GM",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2023Q1.txt",
+    "ticker": "GM",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2022Q2.txt",
+    "ticker": "ADBE",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2018Q3.txt",
+    "ticker": "F",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2020Q3.txt",
+    "ticker": "MA",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2019Q3.txt",
+    "ticker": "GM",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2022Q2.txt",
+    "ticker": "AXP",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2018Q4.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2023Q2.txt",
+    "ticker": "ADBE",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2020Q3.txt",
+    "ticker": "ALL",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2019Q3.txt",
+    "ticker": "CRM",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2018Q4.txt",
+    "ticker": "CRM",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2020Q3.txt",
+    "ticker": "UNH",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AIR.PA/2020Q1.txt",
+    "ticker": "AIR.PA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2018Q1.txt",
+    "ticker": "BKNG",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2022Q1.txt",
+    "ticker": "IBM",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2020Q1.txt",
+    "ticker": "COST",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2022Q4.txt",
+    "ticker": "GM",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2018Q3.txt",
+    "ticker": "MA",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2020Q1.txt",
+    "ticker": "CRM",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2021Q3.txt",
+    "ticker": "CSCO",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2023Q4.txt",
+    "ticker": "META",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2022Q3.txt",
+    "ticker": "GM",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2022Q4.txt",
+    "ticker": "JPM",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2022Q3.txt",
+    "ticker": "MA",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2020Q3.txt",
+    "ticker": "META",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2024Q1.txt",
+    "ticker": "GM",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2020Q3.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2021Q2.txt",
+    "ticker": "ELV",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2024Q4.txt",
+    "ticker": "ACN",
+    "quarter": "2024Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2022Q1.txt",
+    "ticker": "META",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2021Q1.txt",
+    "ticker": "JPM",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2022Q1.txt",
+    "ticker": "UNH",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2019Q1.txt",
+    "ticker": "CAH",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2018Q4.txt",
+    "ticker": "ALL",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2023Q1.txt",
+    "ticker": "BP",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2019Q2.txt",
+    "ticker": "ALL",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2024Q2.txt",
+    "ticker": "CAH",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2022Q2.txt",
+    "ticker": "BKNG",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2023Q4.txt",
+    "ticker": "ACN",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2023Q4.txt",
+    "ticker": "MSFT",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2021Q2.txt",
+    "ticker": "MA",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2018Q1.txt",
+    "ticker": "ELV",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2018Q1.txt",
+    "ticker": "IBM",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2022Q3.txt",
+    "ticker": "MSFT",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2024Q1.txt",
+    "ticker": "NKE",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2018Q2.txt",
+    "ticker": "ALL",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2021Q2.txt",
+    "ticker": "MAR",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2023Q1.txt",
+    "ticker": "ELV",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2023Q2.txt",
+    "ticker": "JPM",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2024Q2.txt",
+    "ticker": "META",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2023Q1.txt",
+    "ticker": "META",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2019Q1.txt",
+    "ticker": "BKNG",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2024Q1.txt",
+    "ticker": "BP",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2023Q3.txt",
+    "ticker": "BAM",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2023Q2.txt",
+    "ticker": "CRM",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2021Q1.txt",
+    "ticker": "META",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2023Q4.txt",
+    "ticker": "ELV",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2022Q4.txt",
+    "ticker": "BKNG",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SHEL/2023Q1.txt",
+    "ticker": "SHEL",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2024Q1.txt",
+    "ticker": "BKNG",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2021Q1.txt",
+    "ticker": "BKNG",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2021Q2.txt",
+    "ticker": "ADBE",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2019Q1.txt",
+    "ticker": "COST",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2022Q3.txt",
+    "ticker": "CRM",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2020Q3.txt",
+    "ticker": "IBM",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2024Q4.txt",
+    "ticker": "COST",
+    "quarter": "2024Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2023Q2.txt",
+    "ticker": "IBM",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2021Q3.txt",
+    "ticker": "META",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2019Q3.txt",
+    "ticker": "WMT",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2022Q4.txt",
+    "ticker": "CAH",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2018Q4.txt",
+    "ticker": "ADBE",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2024Q4.txt",
+    "ticker": "NKE",
+    "quarter": "2024Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2019Q4.txt",
+    "ticker": "META",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2023Q2.txt",
+    "ticker": "MA",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2019Q3.txt",
+    "ticker": "ALL",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2024Q3.txt",
+    "ticker": "ACN",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2024Q2.txt",
+    "ticker": "ELV",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2020Q1.txt",
+    "ticker": "META",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2018Q1.txt",
+    "ticker": "MA",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2020Q1.txt",
+    "ticker": "ALL",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2022Q1.txt",
+    "ticker": "BKNG",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2022Q4.txt",
+    "ticker": "CRM",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2023Q1.txt",
+    "ticker": "ADBE",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2023Q4.txt",
+    "ticker": "CRM",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2019Q4.txt",
+    "ticker": "CRM",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2021Q4.txt",
+    "ticker": "ALL",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2020Q2.txt",
+    "ticker": "LULU",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2023Q4.txt",
+    "ticker": "GM",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2022Q4.txt",
+    "ticker": "MA",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2018Q3.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2020Q3.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2019Q1.txt",
+    "ticker": "ACN",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2023Q1.txt",
+    "ticker": "NKE",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2019Q4.txt",
+    "ticker": "NKE",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2024Q3.txt",
+    "ticker": "MSFT",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2024Q3.txt",
+    "ticker": "NVDA",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2019Q2.txt",
+    "ticker": "UNH",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2020Q2.txt",
+    "ticker": "UNH",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2023Q4.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2023Q1.txt",
+    "ticker": "MSFT",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2024Q2.txt",
+    "ticker": "MSFT",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2022Q4.txt",
+    "ticker": "META",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2024Q1.txt",
+    "ticker": "ALL",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2023Q3.txt",
+    "ticker": "ACN",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2021Q3.txt",
+    "ticker": "MA",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2018Q2.txt",
+    "ticker": "MSFT",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2018Q2.txt",
+    "ticker": "AXP",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2020Q2.txt",
+    "ticker": "NKE",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2019Q3.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2022Q1.txt",
+    "ticker": "AMD",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2019Q3.txt",
+    "ticker": "AXP",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2024Q2.txt",
+    "ticker": "BKNG",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2018Q2.txt",
+    "ticker": "GOOGL",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2024Q3.txt",
+    "ticker": "CSCO",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2021Q2.txt",
+    "ticker": "ALL",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2023Q2.txt",
+    "ticker": "ACN",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2024Q2.txt",
+    "ticker": "BAM",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2019Q4.txt",
+    "ticker": "AXP",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2023Q1.txt",
+    "ticker": "MA",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2023Q1.txt",
+    "ticker": "BKNG",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2024Q2.txt",
+    "ticker": "ACN",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2021Q3.txt",
+    "ticker": "ADBE",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2020Q3.txt",
+    "ticker": "MSFT",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2022Q4.txt",
+    "ticker": "IBM",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2020Q4.txt",
+    "ticker": "ALL",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2022Q2.txt",
+    "ticker": "ALL",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2024Q4.txt",
+    "ticker": "CSCO",
+    "quarter": "2024Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2018Q4.txt",
+    "ticker": "CAH",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2020Q2.txt",
+    "ticker": "ACN",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2021Q4.txt",
+    "ticker": "MAR",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2020Q2.txt",
+    "ticker": "META",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2023Q1.txt",
+    "ticker": "UNH",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2023Q2.txt",
+    "ticker": "CSCO",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2018Q2.txt",
+    "ticker": "BBVA",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2019Q1.txt",
+    "ticker": "MA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2018Q2.txt",
+    "ticker": "NKE",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2022Q3.txt",
+    "ticker": "AMD",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2021Q4.txt",
+    "ticker": "BKNG",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2020Q2.txt",
+    "ticker": "ADBE",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2018Q2.txt",
+    "ticker": "MA",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2020Q3.txt",
+    "ticker": "JPM",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2022Q3.txt",
+    "ticker": "BKNG",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2019Q4.txt",
+    "ticker": "ALL",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2024Q1.txt",
+    "ticker": "PYPL",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2021Q2.txt",
+    "ticker": "IBM",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2022Q2.txt",
+    "ticker": "COST",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2021Q2.txt",
+    "ticker": "COST",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2020Q3.txt",
+    "ticker": "NKE",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2020Q3.txt",
+    "ticker": "ADBE",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2021Q3.txt",
+    "ticker": "F",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2018Q3.txt",
+    "ticker": "ALL",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2021Q3.txt",
+    "ticker": "ALL",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2019Q1.txt",
+    "ticker": "ADBE",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2020Q1.txt",
+    "ticker": "GOOGL",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2024Q2.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2023Q3.txt",
+    "ticker": "AMD",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2024Q3.txt",
+    "ticker": "ADBE",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2021Q2.txt",
+    "ticker": "F",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2022Q1.txt",
+    "ticker": "LULU",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2024Q1.txt",
+    "ticker": "META",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2018Q2.txt",
+    "ticker": "LULU",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2019Q1.txt",
+    "ticker": "GM",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2022Q2.txt",
+    "ticker": "PYPL",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2020Q3.txt",
+    "ticker": "COST",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2021Q1.txt",
+    "ticker": "MSFT",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2020Q3.txt",
+    "ticker": "F",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2021Q2.txt",
+    "ticker": "NKE",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2019Q1.txt",
+    "ticker": "AXP",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BKNG/2023Q4.txt",
+    "ticker": "BKNG",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2023Q4.txt",
+    "ticker": "IBM",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2021Q3.txt",
+    "ticker": "NKE",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2022Q1.txt",
+    "ticker": "CRM",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/META/2022Q3.txt",
+    "ticker": "META",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2020Q1.txt",
+    "ticker": "NKE",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2023Q4.txt",
+    "ticker": "AMD",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2022Q3.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2019Q3.txt",
+    "ticker": "LULU",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2024Q1.txt",
+    "ticker": "IBM",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2020Q1.txt",
+    "ticker": "UNH",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2023Q4.txt",
+    "ticker": "CSCO",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2022Q2.txt",
+    "ticker": "CSCO",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2019Q4.txt",
+    "ticker": "IBM",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2023Q4.txt",
+    "ticker": "BAM",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2018Q3.txt",
+    "ticker": "JPM",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2019Q2.txt",
+    "ticker": "CAH",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2021Q3.txt",
+    "ticker": "MSFT",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2020Q3.txt",
+    "ticker": "LULU",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2021Q2.txt",
+    "ticker": "LULU",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2019Q2.txt",
+    "ticker": "NKE",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2024Q1.txt",
+    "ticker": "MSFT",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2022Q4.txt",
+    "ticker": "UNH",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2023Q2.txt",
+    "ticker": "BAM",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2024Q1.txt",
+    "ticker": "DIS",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2018Q3.txt",
+    "ticker": "LULU",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2021Q3.txt",
+    "ticker": "GM",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2022Q1.txt",
+    "ticker": "MSFT",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2021Q1.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2019Q2.txt",
+    "ticker": "MA",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2018Q1.txt",
+    "ticker": "BP",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2024Q1.txt",
+    "ticker": "ELV",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2024Q1.txt",
+    "ticker": "F",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2024Q1.txt",
+    "ticker": "NVDA",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2019Q2.txt",
+    "ticker": "AXP",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2019Q3.txt",
+    "ticker": "MA",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2022Q4.txt",
+    "ticker": "COST",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2022Q2.txt",
+    "ticker": "CRM",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2020Q3.txt",
+    "ticker": "ACN",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2021Q1.txt",
+    "ticker": "NKE",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2021Q1.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2023Q4.txt",
+    "ticker": "AMZN",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2023Q2.txt",
+    "ticker": "ELV",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2022Q3.txt",
+    "ticker": "NKE",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2021Q1.txt",
+    "ticker": "COST",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2018Q3.txt",
+    "ticker": "ELV",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2019Q3.txt",
+    "ticker": "IBM",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2023Q3.txt",
+    "ticker": "MSFT",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2023Q2.txt",
+    "ticker": "AMD",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2020Q3.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2021Q1.txt",
+    "ticker": "ALL",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2023Q2.txt",
+    "ticker": "MSFT",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2022Q2.txt",
+    "ticker": "ACN",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2020Q4.txt",
+    "ticker": "BAM",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2022Q4.txt",
+    "ticker": "MSFT",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2020Q2.txt",
+    "ticker": "CRM",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2020Q1.txt",
+    "ticker": "GM",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2020Q4.txt",
+    "ticker": "LULU",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2018Q4.txt",
+    "ticker": "GOOGL",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2023Q3.txt",
+    "ticker": "F",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2023Q4.txt",
+    "ticker": "UNH",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2020Q3.txt",
+    "ticker": "AMD",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2020Q2.txt",
+    "ticker": "ALL",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2022Q4.txt",
+    "ticker": "NKE",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2022Q2.txt",
+    "ticker": "MSFT",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2023Q4.txt",
+    "ticker": "NKE",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2019Q2.txt",
+    "ticker": "CRM",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2019Q4.txt",
+    "ticker": "UNH",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2024Q2.txt",
+    "ticker": "IBM",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2024Q4.txt",
+    "ticker": "MSFT",
+    "quarter": "2024Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2021Q1.txt",
+    "ticker": "F",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2023Q1.txt",
+    "ticker": "CRM",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2021Q4.txt",
+    "ticker": "ACN",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2021Q1.txt",
+    "ticker": "BAM",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2021Q3.txt",
+    "ticker": "IBM",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2020Q1.txt",
+    "ticker": "CAH",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2018Q3.txt",
+    "ticker": "GOOGL",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2023Q3.txt",
+    "ticker": "CAH",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2023Q4.txt",
+    "ticker": "MAR",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2023Q2.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2020Q1.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2021Q3.txt",
+    "ticker": "C",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2024Q2.txt",
+    "ticker": "NKE",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2022Q1.txt",
+    "ticker": "NKE",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2022Q4.txt",
+    "ticker": "AMD",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2018Q4.txt",
+    "ticker": "NKE",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2018Q2.txt",
+    "ticker": "ELV",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2020Q3.txt",
+    "ticker": "PYPL",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2018Q3.txt",
+    "ticker": "ACN",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2023Q1.txt",
+    "ticker": "ACN",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2022Q4.txt",
+    "ticker": "ACN",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2020Q1.txt",
+    "ticker": "MC.PA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2021Q4.txt",
+    "ticker": "GOOGL",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2019Q1.txt",
+    "ticker": "NVDA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2021Q3.txt",
+    "ticker": "BAM",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2022Q1.txt",
+    "ticker": "AXP",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2024Q3.txt",
+    "ticker": "NKE",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2022Q1.txt",
+    "ticker": "F",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2021Q3.txt",
+    "ticker": "LULU",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2019Q2.txt",
+    "ticker": "ACN",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2020Q3.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/C/2021Q2.txt",
+    "ticker": "C",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2020Q1.txt",
+    "ticker": "ACN",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2022Q1.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2024Q2.txt",
+    "ticker": "JPM",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2023Q2.txt",
+    "ticker": "NKE",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2024Q1.txt",
+    "ticker": "AMZN",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2019Q3.txt",
+    "ticker": "CAH",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2020Q4.txt",
+    "ticker": "AMD",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2019Q3.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2022Q2.txt",
+    "ticker": "NVDA",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2024Q2.txt",
+    "ticker": "PYPL",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2023Q3.txt",
+    "ticker": "AMZN",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2022Q4.txt",
+    "ticker": "F",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2020Q3.txt",
+    "ticker": "DIS",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2021Q2.txt",
+    "ticker": "CRM",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2024Q2.txt",
+    "ticker": "NVDA",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2018Q1.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2021Q2.txt",
+    "ticker": "ACN",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2020Q4.txt",
+    "ticker": "ACN",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2023Q1.txt",
+    "ticker": "COST",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2023Q2.txt",
+    "ticker": "MAR",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2020Q1.txt",
+    "ticker": "LULU",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2022Q3.txt",
+    "ticker": "IBM",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2019Q2.txt",
+    "ticker": "F",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2020Q1.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2023Q2.txt",
+    "ticker": "COST",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2020Q3.txt",
+    "ticker": "CSCO",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2019Q1.txt",
+    "ticker": "CSCO",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2020Q4.txt",
+    "ticker": "NKE",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2024Q2.txt",
+    "ticker": "GOOGL",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2022Q3.txt",
+    "ticker": "LULU",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2020Q2.txt",
+    "ticker": "PYPL",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2018Q4.txt",
+    "ticker": "ELV",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2022Q3.txt",
+    "ticker": "COST",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2020Q3.txt",
+    "ticker": "MC.PA",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2019Q3.txt",
+    "ticker": "COST",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2023Q4.txt",
+    "ticker": "COST",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2019Q1.txt",
+    "ticker": "NKE",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ELV/2019Q1.txt",
+    "ticker": "ELV",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2020Q1.txt",
+    "ticker": "DIS",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2019Q2.txt",
+    "ticker": "JPM",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2020Q4.txt",
+    "ticker": "MSFT",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2019Q2.txt",
+    "ticker": "MSFT",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2018Q4.txt",
+    "ticker": "GM",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2019Q3.txt",
+    "ticker": "NKE",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2021Q2.txt",
+    "ticker": "DIS",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2024Q1.txt",
+    "ticker": "MAR",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2021Q1.txt",
+    "ticker": "DIS",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2022Q1.txt",
+    "ticker": "MAR",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MA/2018Q4.txt",
+    "ticker": "MA",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2018Q2.txt",
+    "ticker": "PYPL",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2023Q3.txt",
+    "ticker": "NKE",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2021Q1.txt",
+    "ticker": "AMD",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2022Q2.txt",
+    "ticker": "IBM",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2018Q1.txt",
+    "ticker": "LULU",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2019Q4.txt",
+    "ticker": "CAH",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2023Q1.txt",
+    "ticker": "MAR",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2021Q3.txt",
+    "ticker": "MAR",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2023Q1.txt",
+    "ticker": "AMD",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2019Q4.txt",
+    "ticker": "MSFT",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2019Q3.txt",
+    "ticker": "MSFT",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2018Q3.txt",
+    "ticker": "ADBE",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2022Q4.txt",
+    "ticker": "PYPL",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2023Q3.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2022Q2.txt",
+    "ticker": "F",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2024Q1.txt",
+    "ticker": "GOOGL",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2021Q1.txt",
+    "ticker": "UNH",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2021Q4.txt",
+    "ticker": "IBM",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2018Q3.txt",
+    "ticker": "NKE",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2023Q1.txt",
+    "ticker": "LULU",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2023Q4.txt",
+    "ticker": "GOOGL",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2020Q1.txt",
+    "ticker": "NVDA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2023Q1.txt",
+    "ticker": "GOOGL",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2020Q4.txt",
+    "ticker": "F",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2023Q1.txt",
+    "ticker": "F",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2023Q4.txt",
+    "ticker": "PYPL",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2019Q3.txt",
+    "ticker": "ADBE",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2018Q1.txt",
+    "ticker": "GOOGL",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2021Q4.txt",
+    "ticker": "MSFT",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2019Q1.txt",
+    "ticker": "PYPL",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2024Q1.txt",
+    "ticker": "AMD",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2022Q4.txt",
+    "ticker": "BAM",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2024Q1.txt",
+    "ticker": "COST",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2022Q2.txt",
+    "ticker": "MAR",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2023Q2.txt",
+    "ticker": "DIS",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2023Q1.txt",
+    "ticker": "IBM",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2023Q3.txt",
+    "ticker": "UNH",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2019Q4.txt",
+    "ticker": "ACN",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2023Q1.txt",
+    "ticker": "CSCO",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2018Q2.txt",
+    "ticker": "ADBE",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2021Q2.txt",
+    "ticker": "PYPL",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2021Q1.txt",
+    "ticker": "ACN",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2021Q4.txt",
+    "ticker": "LULU",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2023Q2.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2021Q3.txt",
+    "ticker": "DIS",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2021Q4.txt",
+    "ticker": "PYPL",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2020Q4.txt",
+    "ticker": "CRM",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2022Q2.txt",
+    "ticker": "UNH",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2018Q1.txt",
+    "ticker": "ACN",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2019Q3.txt",
+    "ticker": "CSCO",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2019Q3.txt",
+    "ticker": "MC.PA",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2023Q3.txt",
+    "ticker": "IBM",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2024Q3.txt",
+    "ticker": "LULU",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2022Q2.txt",
+    "ticker": "NKE",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2023Q1.txt",
+    "ticker": "AXP",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2021Q2.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2021Q4.txt",
+    "ticker": "NVDA",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2019Q1.txt",
+    "ticker": "MSFT",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2020Q1.txt",
+    "ticker": "BAM",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2019Q3.txt",
+    "ticker": "ACN",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2022Q3.txt",
+    "ticker": "PYPL",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2022Q3.txt",
+    "ticker": "ACN",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2020Q2.txt",
+    "ticker": "CAH",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2020Q3.txt",
+    "ticker": "BAM",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2023Q4.txt",
+    "ticker": "CAH",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2019Q4.txt",
+    "ticker": "NVDA",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2021Q2.txt",
+    "ticker": "UNH",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2019Q2.txt",
+    "ticker": "GOOGL",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2023Q1.txt",
+    "ticker": "PYPL",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2020Q1.txt",
+    "ticker": "AMD",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2020Q1.txt",
+    "ticker": "ADBE",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2023Q4.txt",
+    "ticker": "AXP",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2023Q3.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2020Q1.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2022Q3.txt",
+    "ticker": "CAH",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CRM/2020Q3.txt",
+    "ticker": "CRM",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2019Q4.txt",
+    "ticker": "GOOGL",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2023Q1.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2023Q2.txt",
+    "ticker": "AXP",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2022Q4.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2024Q1.txt",
+    "ticker": "CAH",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2024Q1.txt",
+    "ticker": "LULU",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2022Q2.txt",
+    "ticker": "AMD",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2023Q1.txt",
+    "ticker": "DIS",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2020Q4.txt",
+    "ticker": "DIS",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2019Q2.txt",
+    "ticker": "LULU",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2018Q4.txt",
+    "ticker": "PYPL",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2020Q2.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2022Q2.txt",
+    "ticker": "DIS",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2019Q1.txt",
+    "ticker": "GOOGL",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ALL/2022Q1.txt",
+    "ticker": "ALL",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2018Q2.txt",
+    "ticker": "AMD",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2021Q4.txt",
+    "ticker": "COST",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2018Q4.txt",
+    "ticker": "LULU",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2022Q4.txt",
+    "ticker": "MAR",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2021Q1.txt",
+    "ticker": "LULU",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2018Q3.txt",
+    "ticker": "NVDA",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2022Q1.txt",
+    "ticker": "NVDA",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2020Q4.txt",
+    "ticker": "NVDA",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2022Q4.txt",
+    "ticker": "LULU",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2019Q4.txt",
+    "ticker": "AMD",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2023Q2.txt",
+    "ticker": "GOOGL",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2024Q2.txt",
+    "ticker": "UNH",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2021Q1.txt",
+    "ticker": "CSCO",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2023Q1.txt",
+    "ticker": "NVDA",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2023Q2.txt",
+    "ticker": "CAH",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2022Q3.txt",
+    "ticker": "NVDA",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2018Q3.txt",
+    "ticker": "MC.PA",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2024Q2.txt",
+    "ticker": "LULU",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2024Q4.txt",
+    "ticker": "NVDA",
+    "quarter": "2024Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2023Q1.txt",
+    "ticker": "BAM",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2022Q2.txt",
+    "ticker": "LULU",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NKE/2021Q4.txt",
+    "ticker": "NKE",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2022Q4.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2018Q1.txt",
+    "ticker": "AMD",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2018Q4.txt",
+    "ticker": "AMD",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2019Q4.txt",
+    "ticker": "DIS",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2018Q3.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BP/2023Q3.txt",
+    "ticker": "BP",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2023Q4.txt",
+    "ticker": "AAPL",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2020Q2.txt",
+    "ticker": "MSFT",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2022Q1.txt",
+    "ticker": "ACN",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2021Q4.txt",
+    "ticker": "CAH",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2018Q1.txt",
+    "ticker": "PYPL",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2021Q3.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2019Q4.txt",
+    "ticker": "PYPL",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2018Q4.txt",
+    "ticker": "NVDA",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2020Q2.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2022Q1.txt",
+    "ticker": "JPM",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2022Q2.txt",
+    "ticker": "JPM",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2021Q3.txt",
+    "ticker": "AAPL",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2019Q2.txt",
+    "ticker": "NVDA",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2018Q1.txt",
+    "ticker": "BBVA",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2022Q4.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2020Q4.txt",
+    "ticker": "AAPL",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2021Q2.txt",
+    "ticker": "NVDA",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2018Q2.txt",
+    "ticker": "ACN",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2022Q3.txt",
+    "ticker": "GOOGL",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2021Q4.txt",
+    "ticker": "AAPL",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AIR.PA/2021Q1.txt",
+    "ticker": "AIR.PA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2021Q3.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2021Q3.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2024Q2.txt",
+    "ticker": "AMD",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2023Q4.txt",
+    "ticker": "DIS",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2020Q4.txt",
+    "ticker": "UNH",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2019Q3.txt",
+    "ticker": "PYPL",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2018Q1.txt",
+    "ticker": "ADBE",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2019Q3.txt",
+    "ticker": "DIS",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2019Q4.txt",
+    "ticker": "AAPL",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2019Q1.txt",
+    "ticker": "LULU",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2021Q3.txt",
+    "ticker": "ACN",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2018Q3.txt",
+    "ticker": "PYPL",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2023Q1.txt",
+    "ticker": "JPM",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/COST/2019Q2.txt",
+    "ticker": "COST",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2021Q4.txt",
+    "ticker": "F",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2020Q1.txt",
+    "ticker": "MSFT",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2024Q2.txt",
+    "ticker": "AMZN",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2018Q3.txt",
+    "ticker": "AMD",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2018Q2.txt",
+    "ticker": "CAH",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2019Q3.txt",
+    "ticker": "AMD",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2019Q4.txt",
+    "ticker": "DB",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2018Q4.txt",
+    "ticker": "F",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2022Q4.txt",
+    "ticker": "GOOGL",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2021Q1.txt",
+    "ticker": "AAPL",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2024Q2.txt",
+    "ticker": "MAR",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2021Q2.txt",
+    "ticker": "AAPL",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2021Q3.txt",
+    "ticker": "NVDA",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2020Q2.txt",
+    "ticker": "NVDA",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2021Q2.txt",
+    "ticker": "GOOGL",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2019Q4.txt",
+    "ticker": "ADBE",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2024Q1.txt",
+    "ticker": "BAM",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2023Q3.txt",
+    "ticker": "GOOGL",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2020Q2.txt",
+    "ticker": "AMD",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2022Q3.txt",
+    "ticker": "F",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ADBE/2019Q2.txt",
+    "ticker": "ADBE",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2021Q4.txt",
+    "ticker": "AMD",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2022Q4.txt",
+    "ticker": "DIS",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2020Q4.txt",
+    "ticker": "CSCO",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ACN/2018Q4.txt",
+    "ticker": "ACN",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2020Q1.txt",
+    "ticker": "F",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2023Q2.txt",
+    "ticker": "NVDA",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2021Q3.txt",
+    "ticker": "PYPL",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2023Q2.txt",
+    "ticker": "PYPL",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2022Q3.txt",
+    "ticker": "DIS",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2018Q1.txt",
+    "ticker": "AXP",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2021Q2.txt",
+    "ticker": "AMD",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2022Q2.txt",
+    "ticker": "AAPL",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2024Q1.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2022Q4.txt",
+    "ticker": "AAPL",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2019Q3.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2020Q3.txt",
+    "ticker": "NVDA",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2021Q3.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2019Q3.txt",
+    "ticker": "AAPL",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2018Q4.txt",
+    "ticker": "MSFT",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2022Q2.txt",
+    "ticker": "GOOGL",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2023Q3.txt",
+    "ticker": "AAPL",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2023Q3.txt",
+    "ticker": "NVDA",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2021Q1.txt",
+    "ticker": "PYPL",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2024Q2.txt",
+    "ticker": "AAPL",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2022Q3.txt",
+    "ticker": "UNH",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2019Q3.txt",
+    "ticker": "BAM",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2024Q2.txt",
+    "ticker": "CSCO",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2018Q4.txt",
+    "ticker": "AAPL",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/IBM/2019Q2.txt",
+    "ticker": "IBM",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AIR.PA/2023Q2.txt",
+    "ticker": "AIR.PA",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2019Q3.txt",
+    "ticker": "GOOGL",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2024Q3.txt",
+    "ticker": "AAPL",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2023Q2.txt",
+    "ticker": "AAPL",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2021Q2.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2019Q1.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2023Q4.txt",
+    "ticker": "NVDA",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2019Q1.txt",
+    "ticker": "AAPL",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2022Q3.txt",
+    "ticker": "AAPL",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2018Q4.txt",
+    "ticker": "CSCO",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NVDA/2022Q4.txt",
+    "ticker": "NVDA",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2023Q3.txt",
+    "ticker": "PYPL",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2020Q4.txt",
+    "ticker": "GOOGL",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2020Q2.txt",
+    "ticker": "GOOGL",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2020Q2.txt",
+    "ticker": "AAPL",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2020Q3.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2020Q4.txt",
+    "ticker": "ORCL",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2021Q4.txt",
+    "ticker": "BAM",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2018Q4.txt",
+    "ticker": "DIS",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2019Q2.txt",
+    "ticker": "CSCO",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2022Q4.txt",
+    "ticker": "MC.PA",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2022Q1.txt",
+    "ticker": "GOOGL",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2022Q1.txt",
+    "ticker": "DIS",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2018Q2.txt",
+    "ticker": "CSCO",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2021Q3.txt",
+    "ticker": "AMD",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2018Q1.txt",
+    "ticker": "JPM",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GM/2018Q3.txt",
+    "ticker": "GM",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2018Q3.txt",
+    "ticker": "AAPL",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2019Q2.txt",
+    "ticker": "PYPL",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2019Q4.txt",
+    "ticker": "CSCO",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AIR.PA/2022Q1.txt",
+    "ticker": "AIR.PA",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2022Q1.txt",
+    "ticker": "BAM",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2018Q1.txt",
+    "ticker": "DIS",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2023Q3.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2020Q1.txt",
+    "ticker": "AAPL",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2024Q1.txt",
+    "ticker": "AAPL",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2020Q3.txt",
+    "ticker": "AAPL",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2018Q3.txt",
+    "ticker": "DIS",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2018Q1.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2023Q1.txt",
+    "ticker": "AAPL",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2019Q2.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2018Q1.txt",
+    "ticker": "AAPL",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2023Q3.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2020Q4.txt",
+    "ticker": "PYPL",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2022Q3.txt",
+    "ticker": "MAR",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2019Q1.txt",
+    "ticker": "F",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2021Q3.txt",
+    "ticker": "UNH",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/OR.PA/2021Q3.txt",
+    "ticker": "OR.PA",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AIR.PA/2023Q1.txt",
+    "ticker": "AIR.PA",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2023Q4.txt",
+    "ticker": "JPM",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2020Q4.txt",
+    "ticker": "CAH",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2023Q3.txt",
+    "ticker": "AXP",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2021Q2.txt",
+    "ticker": "CAH",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2019Q3.txt",
+    "ticker": "JPM",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2023Q1.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2018Q2.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MSFT/2021Q2.txt",
+    "ticker": "MSFT",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2018Q2.txt",
+    "ticker": "AAPL",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2022Q3.txt",
+    "ticker": "JPM",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2019Q2.txt",
+    "ticker": "AAPL",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2023Q1.txt",
+    "ticker": "CAH",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/OR.PA/2020Q3.txt",
+    "ticker": "OR.PA",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AAPL/2022Q1.txt",
+    "ticker": "AAPL",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2020Q2.txt",
+    "ticker": "CSCO",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2021Q1.txt",
+    "ticker": "GOOGL",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2021Q4.txt",
+    "ticker": "UNH",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2019Q1.txt",
+    "ticker": "DIS",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2018Q1.txt",
+    "ticker": "MC.PA",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2021Q3.txt",
+    "ticker": "GOOGL",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2019Q4.txt",
+    "ticker": "JPM",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2022Q1.txt",
+    "ticker": "CAH",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2024Q1.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2022Q2.txt",
+    "ticker": "BAM",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2019Q4.txt",
+    "ticker": "MC.PA",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AIR.PA/2018Q1.txt",
+    "ticker": "AIR.PA",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2022Q2.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2022Q2.txt",
+    "ticker": "ORCL",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/F/2023Q2.txt",
+    "ticker": "F",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/JPM/2018Q2.txt",
+    "ticker": "JPM",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2019Q2.txt",
+    "ticker": "AMD",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2021Q1.txt",
+    "ticker": "MAR",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AIR.PA/2019Q1.txt",
+    "ticker": "AIR.PA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2019Q2.txt",
+    "ticker": "DIS",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2020Q2.txt",
+    "ticker": "ORCL",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2023Q3.txt",
+    "ticker": "DIS",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2021Q2.txt",
+    "ticker": "BAM",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2023Q3.txt",
+    "ticker": "CSCO",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2024Q2.txt",
+    "ticker": "AXP",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2019Q1.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2023Q1.txt",
+    "ticker": "AMZN",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/OR.PA/2020Q1.txt",
+    "ticker": "OR.PA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2024Q1.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2018Q1.txt",
+    "ticker": "CSCO",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2024Q1.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2023Q2.txt",
+    "ticker": "AMZN",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/UNH/2023Q2.txt",
+    "ticker": "UNH",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2021Q3.txt",
+    "ticker": "CAH",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DB/2021Q4.txt",
+    "ticker": "DB",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2021Q1.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2021Q3.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2020Q2.txt",
+    "ticker": "BAM",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2018Q3.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2022Q3.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2019Q1.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2018Q1.txt",
+    "ticker": "WMT",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2023Q2.txt",
+    "ticker": "ORCL",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2024Q2.txt",
+    "ticker": "DIS",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2023Q2.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2022Q4.txt",
+    "ticker": "AMZN",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/LULU/2019Q4.txt",
+    "ticker": "LULU",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2019Q4.txt",
+    "ticker": "BAM",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2021Q1.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2022Q2.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2023Q3.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2022Q2.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2024Q2.txt",
+    "ticker": "ORCL",
+    "quarter": "2024Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2019Q4.txt",
+    "ticker": "ORCL",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2023Q1.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2018Q2.txt",
+    "ticker": "DIS",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2024Q1.txt",
+    "ticker": "CSCO",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2023Q1.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AXP/2024Q1.txt",
+    "ticker": "AXP",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMD/2019Q1.txt",
+    "ticker": "AMD",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2023Q2.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2023Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2018Q1.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2020Q1.txt",
+    "ticker": "ORCL",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2021Q1.txt",
+    "ticker": "CAH",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/GOOGL/2020Q3.txt",
+    "ticker": "GOOGL",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MAR/2023Q3.txt",
+    "ticker": "MAR",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AIR.PA/2024Q1.txt",
+    "ticker": "AIR.PA",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2022Q3.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/OR.PA/2021Q1.txt",
+    "ticker": "OR.PA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2022Q3.txt",
+    "ticker": "BAM",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2022Q3.txt",
+    "ticker": "ORCL",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2021Q3.txt",
+    "ticker": "AMZN",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2022Q1.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/MC.PA/2019Q1.txt",
+    "ticker": "MC.PA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2023Q1.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2023Q3.txt",
+    "ticker": "ORCL",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2023Q4.txt",
+    "ticker": "ORCL",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2018Q3.txt",
+    "ticker": "ORCL",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CSCO/2020Q1.txt",
+    "ticker": "CSCO",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/PYPL/2022Q1.txt",
+    "ticker": "PYPL",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMS.PA/2022Q1.txt",
+    "ticker": "AMS.PA",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAH/2022Q2.txt",
+    "ticker": "CAH",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2021Q3.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2019Q1.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2020Q4.txt",
+    "ticker": "AMZN",
+    "quarter": "2020Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2020Q1.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SCHNEIDER.PA/2019Q3.txt",
+    "ticker": "SCHNEIDER.PA",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2021Q4.txt",
+    "ticker": "AMZN",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2019Q1.txt",
+    "ticker": "BAM",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2019Q1.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2020Q3.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2022Q4.txt",
+    "ticker": "ORCL",
+    "quarter": "2022Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2019Q2.txt",
+    "ticker": "BAM",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2024Q3.txt",
+    "ticker": "ORCL",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2018Q4.txt",
+    "ticker": "ORCL",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2024Q4.txt",
+    "ticker": "ORCL",
+    "quarter": "2024Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2019Q3.txt",
+    "ticker": "ORCL",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/OR.PA/2019Q1.txt",
+    "ticker": "OR.PA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2020Q3.txt",
+    "ticker": "ORCL",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2023Q1.txt",
+    "ticker": "ORCL",
+    "quarter": "2023Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2021Q4.txt",
+    "ticker": "BBVA",
+    "quarter": "2021Q4",
+    "date": "Feb 03, 2022, 3:30 a.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/AMZN/2021Q2.txt",
+    "ticker": "AMZN",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2018Q1.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2020Q2.txt",
+    "ticker": "AMZN",
+    "quarter": "2020Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2022Q2.txt",
+    "ticker": "AMZN",
+    "quarter": "2022Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/SIE.DE/2020Q1.txt",
+    "ticker": "SIE.DE",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/OR.PA/2018Q1.txt",
+    "ticker": "OR.PA",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2019Q1.txt",
+    "ticker": "ORCL",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2020Q1.txt",
+    "ticker": "AMZN",
+    "quarter": "2020Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2018Q1.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BMW.DE/2018Q1.txt",
+    "ticker": "BMW.DE",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2021Q1.txt",
+    "ticker": "ORCL",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2019Q3.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2021Q1.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2024Q1.txt",
+    "ticker": "ORCL",
+    "quarter": "2024Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2018Q4.txt",
+    "ticker": "BAM",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2022Q1.txt",
+    "ticker": "AMZN",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2018Q1.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2019Q1.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2019Q1.txt",
+    "ticker": "AMZN",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2021Q3.txt",
+    "ticker": "ORCL",
+    "quarter": "2021Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2019Q2.txt",
+    "ticker": "ORCL",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2020Q3.txt",
+    "ticker": "AMZN",
+    "quarter": "2020Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2019Q2.txt",
+    "ticker": "AMZN",
+    "quarter": "2019Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BAM/2018Q2.txt",
+    "ticker": "BAM",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2018Q3.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2021Q1.txt",
+    "ticker": "AMZN",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/WMT/2022Q2.txt",
+    "ticker": "WMT",
+    "quarter": "2022Q2",
+    "date": "Aug 17, 2021, 8:00 a.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2022Q3.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2022Q3.txt",
+    "ticker": "AMZN",
+    "quarter": "2022Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2018Q3.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2019Q4.txt",
+    "ticker": "AMZN",
+    "quarter": "2019Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2018Q4.txt",
+    "ticker": "AMZN",
+    "quarter": "2018Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2018Q1.txt",
+    "ticker": "AMZN",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2021Q2.txt",
+    "ticker": "ORCL",
+    "quarter": "2021Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2021Q1.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2021Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/CAP.PA/2019Q3.txt",
+    "ticker": "CAP.PA",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2018Q2.txt",
+    "ticker": "AMZN",
+    "quarter": "2018Q2",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/EDF.PA/2019Q1.txt",
+    "ticker": "EDF.PA",
+    "quarter": "2019Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/AMZN/2018Q3.txt",
+    "ticker": "AMZN",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ORCL/2022Q1.txt",
+    "ticker": "ORCL",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/TSLA/2019Q3.txt",
+    "ticker": "TSLA",
+    "quarter": "2019Q3",
+    "date": "Oct 23, 2019, 6:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/TSLA/2019Q4.txt",
+    "ticker": "TSLA",
+    "quarter": "2019Q4",
+    "date": "Jan 29, 2020, 6:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/ORCL/2021Q4.txt",
+    "ticker": "ORCL",
+    "quarter": "2021Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/TSLA/2022Q2.txt",
+    "ticker": "TSLA",
+    "quarter": "2022Q2",
+    "date": "Jul 20, 2022, 5:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/BAM/2018Q3.txt",
+    "ticker": "BAM",
+    "quarter": "2018Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/TSLA/2021Q3.txt",
+    "ticker": "TSLA",
+    "quarter": "2021Q3",
+    "date": "Oct 20, 2021, 8:30 a.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/TSLA/2020Q2.txt",
+    "ticker": "TSLA",
+    "quarter": "2020Q2",
+    "date": "Jul 22, 2020, 6:00 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/AMZN/2019Q3.txt",
+    "ticker": "AMZN",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/DIS/2024Q3.txt",
+    "ticker": "DIS",
+    "quarter": "2024Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/ENGI.PA/2019Q3.txt",
+    "ticker": "ENGI.PA",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/TSLA/2021Q4.txt",
+    "ticker": "TSLA",
+    "quarter": "2021Q4",
+    "date": "Jan 26, 2022, 5:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/TSLA/2020Q4.txt",
+    "ticker": "TSLA",
+    "quarter": "2020Q4",
+    "date": "Jan 27, 2021, 6:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/TSLA/2020Q1.txt",
+    "ticker": "TSLA",
+    "quarter": "2020Q1",
+    "date": "Apr 29, 2020, 6:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/DIS/2021Q4.txt",
+    "ticker": "DIS",
+    "quarter": "2021Q4",
+    "date": "Nov 10, 2021, 4:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/NFLX/2022Q4.txt",
+    "ticker": "NFLX",
+    "quarter": "2022Q4",
+    "date": "Jan 19, 2023, 6:00 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/TSLA/2022Q4.txt",
+    "ticker": "TSLA",
+    "quarter": "2022Q4",
+    "date": "Jan 25, 2023, 5:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/TSLA/2021Q1.txt",
+    "ticker": "TSLA",
+    "quarter": "2021Q1",
+    "date": "Apr 26, 2021, 5:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/TSLA/2022Q3.txt",
+    "ticker": "TSLA",
+    "quarter": "2022Q3",
+    "date": "Oct 19, 2022, 5:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/NVDA/2019Q3.txt",
+    "ticker": "NVDA",
+    "quarter": "2019Q3",
+    "date": "Nov 14, 2019, 5:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/TSLA/2021Q2.txt",
+    "ticker": "TSLA",
+    "quarter": "2021Q2",
+    "date": "Jul 26, 2021, 5:30 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/NFLX/2022Q2.txt",
+    "ticker": "NFLX",
+    "quarter": "2022Q2",
+    "date": "Jul 19, 2022, 6:00 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/NFLX/2021Q4.txt",
+    "ticker": "NFLX",
+    "quarter": "2021Q4",
+    "date": "Jan 20, 2022, 6:00 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/NFLX/2022Q3.txt",
+    "ticker": "NFLX",
+    "quarter": "2022Q3",
+    "date": "Oct 18, 2022, 6:00 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/BAM/2018Q1.txt",
+    "ticker": "BAM",
+    "quarter": "2018Q1",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NFLX/2022Q1.txt",
+    "ticker": "NFLX",
+    "quarter": "2022Q1",
+    "date": "Apr 19, 2022, 6:00 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/NFLX/2021Q1.txt",
+    "ticker": "NFLX",
+    "quarter": "2021Q1",
+    "date": "Apr 20, 2021, 6:00 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/NFLX/2020Q4.txt",
+    "ticker": "NFLX",
+    "quarter": "2020Q4",
+    "date": "Jan 19, 2021, 6:00 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/NFLX/2021Q3.txt",
+    "ticker": "NFLX",
+    "quarter": "2021Q3",
+    "date": "Oct 19, 2021, 6:00 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/F/2019Q3.txt",
+    "ticker": "F",
+    "quarter": "2019Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/NFLX/2021Q2.txt",
+    "ticker": "NFLX",
+    "quarter": "2021Q2",
+    "date": "Jul 20, 2021, 5:00 p.m. ET",
+    "source": "motley_fool"
+  },
+  {
+    "file_path": "data/raw/SHEL/2023Q4.txt",
+    "ticker": "SHEL",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2023Q4.txt",
+    "ticker": "BBVA",
+    "quarter": "2023Q4",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2023Q3.txt",
+    "ticker": "BBVA",
+    "quarter": "2023Q3",
+    "date": "",
+    "source": "alphaspread"
+  },
+  {
+    "file_path": "data/raw/BBVA/2022Q1.txt",
+    "ticker": "BBVA",
+    "quarter": "2022Q1",
+    "date": "",
+    "source": "alphaspread"
+  }
+]

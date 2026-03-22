@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bg-dark: #0a0a0f;
+    --bg-card: #12121a;
+    --bg-sidebar: #0e0e16;
+    --accent-blue: #4f7df5;
+    --accent-purple: #8b5cf6;
+    --accent-cyan: #22d3ee;
+    --accent-green: #34d399;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+}
+
+.stApp, .main, [data-testid="stAppViewContainer"] {
+    background-color: var(--bg-dark) !important;
+    color: var(--text-primary) !important;
+    font-family: 'Inter', -apple-system, sans-serif !important;
+}
+
+.stApp::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(79, 125, 245, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(79, 125, 245, 0.02) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+[data-testid="stSidebar"], [data-testid="stSidebar"] > div {
+    background-color: var(--bg-sidebar) !important;
+    border-right: 1px solid rgba(255,255,255,0.06) !important;
+}
+
+[data-testid="stSidebar"] .stSelectbox label,
+[data-testid="stSidebar"] .stMultiSelect label,
+[data-testid="stSidebar"] .stTextInput label {
+    color: var(--text-muted) !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    font-size: 11px !important;
+    letter-spacing: 1.5px !important;
+}
+
+h1, h2, h3, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3 {
+    color: var(--text-primary) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.5px !important;
+}
+
+h2, .stMarkdown h2 {
+    font-size: 28px !important;
+    color: var(--text-primary) !important;
+}
+
+p, li, .stMarkdown, [data-testid="stText"] {
+    color: var(--text-secondary) !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+span:not([style]) {
+    color: var(--text-secondary) !important;
+}
+
+/* Preserve Material Icons font for Streamlit's icon buttons */
+[data-testid="collapsedControl"] span,
+button[kind="icon"] span,
+.material-symbols-rounded {
+    font-family: 'Material Symbols Rounded' !important;
+}
+
+[data-testid="stMetric"] {
+    background: var(--bg-card) !important;
+    border: 1px solid rgba(255,255,255,0.06) !important;
+    border-radius: 16px !important;
+    padding: 20px 24px !important;
+    transition: all 0.3s ease !important;
+}
+
+[data-testid="stMetric"]:hover {
+    border-color: rgba(79, 125, 245, 0.3) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(79, 125, 245, 0.1) !important;
+}
+
+[data-testid="stMetric"] [data-testid="stMetricLabel"] {
+    color: var(--text-muted) !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+}
+
+[data-testid="stMetric"] [data-testid="stMetricValue"] {
+    font-size: 36px !important;
+    font-weight: 800 !important;
+    color: var(--accent-blue) !important;
+}
+
+[data-testid="stMetric"] [data-testid="stMetricDelta"] {
+    color: var(--accent-green) !important;
+}
+
+[data-testid="stDataFrame"], .stDataFrame {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+[data-testid="stDataFrame"] [data-testid="glideDataEditor"],
+.stDataFrame div[class*="glide"] {
+    background-color: var(--bg-card) !important;
+    border: 1px solid rgba(255,255,255,0.06) !important;
+    border-radius: 12px !important;
+}
+
+.stButton > button {
+    background: linear-gradient(135deg, #4f7df5, #8b5cf6) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    font-family: 'Inter', sans-serif !important;
+    padding: 8px 24px !important;
+    transition: all 0.3s ease !important;
+    letter-spacing: 0.3px !important;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(79, 125, 245, 0.3) !important;
+}
+
+.stTextInput > div > div > input,
+.stSelectbox > div > div,
+.stMultiSelect > div > div,
+[data-testid="stTextInput"] input {
+    background-color: var(--bg-card) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 10px !important;
+    color: var(--text-primary) !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.stTextInput > div > div > input:focus,
+.stSelectbox > div > div:focus-within {
+    border-color: var(--accent-blue) !important;
+    box-shadow: 0 0 0 2px rgba(79, 125, 245, 0.2) !important;
+}
+
+[data-testid="stTextInput"] label,
+.stSelectbox label,
+.stMultiSelect label {
+    color: var(--text-secondary) !important;
+    font-weight: 500 !important;
+}
+
+.stTabs [data-baseweb="tab-list"] {
+    background-color: var(--bg-card) !important;
+    border-radius: 12px !important;
+    padding: 4px !important;
+    gap: 4px !important;
+    border: 1px solid rgba(255,255,255,0.06) !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 8px !important;
+    color: var(--text-muted) !important;
+    font-weight: 600 !important;
+    font-family: 'Inter', sans-serif !important;
+    padding: 8px 20px !important;
+    background: transparent !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, rgba(79,125,245,0.2), rgba(139,92,246,0.2)) !important;
+    color: var(--text-primary) !important;
+}
+
+.stTabs [data-baseweb="tab-panel"] {
+    padding-top: 20px !important;
+}
+
+[data-testid="stExpander"] {
+    background-color: var(--bg-card) !important;
+    border: 1px solid rgba(255,255,255,0.06) !important;
+    border-radius: 12px !important;
+}
+
+[data-testid="stExpander"] summary {
+    color: var(--text-primary) !important;
+    font-weight: 600 !important;
+}
+
+[data-testid="stChatMessage"] {
+    background-color: var(--bg-card) !important;
+    border: 1px solid rgba(255,255,255,0.06) !important;
+    border-radius: 14px !important;
+    padding: 16px 20px !important;
+}
+
+.stChatInput > div {
+    background-color: var(--bg-card) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 12px !important;
+}
+
+.stChatInput textarea {
+    color: var(--text-primary) !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+[data-testid="stFileUploader"] {
+    background-color: var(--bg-card) !important;
+    border: 2px dashed rgba(79, 125, 245, 0.3) !important;
+    border-radius: 16px !important;
+    padding: 20px !important;
+}
+
+[data-testid="stFileUploader"]:hover {
+    border-color: rgba(79, 125, 245, 0.5) !important;
+    background-color: rgba(79, 125, 245, 0.05) !important;
+}
+
+[data-testid="stAlert"], .stAlert {
+    border-radius: 12px !important;
+    border: none !important;
+}
+
+hr, [data-testid="stDivider"] {
+    border-color: rgba(255,255,255,0.06) !important;
+}
+
+.stSpinner > div {
+    border-top-color: var(--accent-blue) !important;
+}
+
+.js-plotly-plot .plotly .main-svg {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+
+.block-container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+[data-testid="stMultiSelect"] span[data-baseweb="tag"] {
+    background-color: rgba(79, 125, 245, 0.15) !important;
+    color: var(--accent-blue) !important;
+    border-radius: 6px !important;
+}
+
+code, .stCode, pre {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+    border-radius: 8px !important;
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+blockquote {
+    border-left: 3px solid rgba(79, 125, 245, 0.4) !important;
+    background: rgba(79, 125, 245, 0.05) !important;
+    border-radius: 0 8px 8px 0 !important;
+    padding: 12px 16px !important;
+    color: var(--text-secondary) !important;
+}
+
+[data-testid="stToast"] {
+    background-color: var(--bg-card) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 12px !important;
+}
+
+[data-testid="stSidebarNav"] a {
+    color: var(--text-secondary) !important;
+    font-weight: 500 !important;
+    border-radius: 8px !important;
+    transition: all 0.2s !important;
+}
+
+[data-testid="stSidebarNav"] a:hover {
+    background: rgba(79, 125, 245, 0.1) !important;
+    color: var(--text-primary) !important;
+}
+
+[data-testid="stSidebarNav"] a[aria-selected="true"] {
+    background: linear-gradient(135deg, rgba(79,125,245,0.15), rgba(139,92,246,0.15)) !important;
+    color: var(--text-primary) !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stHorizontalBlock"] {
+    gap: 16px !important;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}

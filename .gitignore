@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Data (too large for git)
+data/raw/
+data/kaggle/
+data/embeddings/
+data/market/
+data/processed/
+data/.claude/
+
+# Models
+models/*.pkl
+
+# Outputs
+outputs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/cache/
+
+# Environment
+.env
+*.env

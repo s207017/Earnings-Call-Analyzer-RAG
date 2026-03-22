@@ -1,0 +1,123 @@
+{
+  "categories": {
+    "demand_risk": [
+      "declining demand", "weak demand", "slowdown in demand", "demand softness",
+      "lower demand", "reduced demand", "demand headwinds", "demand uncertainty",
+      "order cancellations", "customer churn", "subscriber losses", "user decline",
+      "market contraction", "volume decline", "lower volumes", "weaker orders",
+      "revenue decline", "revenue pressure", "top-line pressure", "sales decline",
+      "softening demand", "demand deterioration", "cyclical downturn", "lower bookings",
+      "reduced backlog", "pipeline weakness", "fewer deals", "lower attach rates"
+    ],
+    "margin_risk": [
+      "margin pressure", "margin compression", "margin decline", "margin erosion",
+      "cost inflation", "higher costs", "cost headwinds", "rising costs",
+      "pricing pressure", "price competition", "price erosion", "lower ASPs",
+      "gross margin decline", "operating margin pressure", "profitability concerns",
+      "input cost increases", "wage inflation", "compensation costs",
+      "lower margins", "squeezed margins", "dilutive", "margin contraction",
+      "elevated costs", "cost structure", "higher expenses", "unfavorable mix"
+    ],
+    "supply_chain_risk": [
+      "supply chain disruption", "supply constraints", "supply shortage",
+      "component shortage", "chip shortage", "semiconductor shortage",
+      "logistics challenges", "shipping delays", "freight costs",
+      "inventory buildup", "excess inventory", "inventory write-down",
+      "supplier issues", "vendor concentration", "single source",
+      "manufacturing delays", "production bottleneck", "capacity constraints",
+      "raw material shortage", "lead time extension", "procurement challenges",
+      "supply chain resilience", "warehousing costs", "fulfillment challenges"
+    ],
+    "regulatory_risk": [
+      "regulatory", "regulation", "compliance", "antitrust",
+      "litigation", "lawsuit", "legal proceedings", "settlement",
+      "government investigation", "regulatory scrutiny", "enforcement action",
+      "data privacy", "GDPR", "privacy regulation", "consent decree",
+      "tax reform", "tax liability", "transfer pricing", "tax audit",
+      "SEC investigation", "congressional hearing", "legislative risk",
+      "licensing requirements", "permit delays", "regulatory approval",
+      "sanctions", "export controls", "trade restrictions"
+    ],
+    "competition_risk": [
+      "competitive pressure", "competitive intensity", "market share loss",
+      "new entrants", "competitive landscape", "competitive threats",
+      "pricing competition", "aggressive competitors", "competitive dynamics",
+      "market share erosion", "losing share", "competitive displacement",
+      "commoditization", "differentiation challenges", "switching costs",
+      "competitor advantage", "competitive moat", "barrier to entry",
+      "disruptive competition", "substitute products", "competitive positioning",
+      "market fragmentation", "win rate decline", "lost deals"
+    ],
+    "fx_macro_risk": [
+      "foreign exchange", "currency headwind", "FX impact", "forex",
+      "currency fluctuation", "dollar strength", "strong dollar",
+      "macroeconomic uncertainty", "economic slowdown", "recession risk",
+      "inflation", "inflationary", "interest rate", "rate hikes",
+      "consumer spending weakness", "discretionary spending", "budget cuts",
+      "GDP slowdown", "economic downturn", "macro headwinds",
+      "emerging market weakness", "geopolitical uncertainty", "trade tensions",
+      "monetary policy", "fiscal policy", "credit tightening", "capital markets volatility"
+    ],
+    "liquidity_risk": [
+      "cash burn", "negative free cash flow", "cash flow pressure",
+      "debt maturity", "refinancing risk", "credit facility",
+      "liquidity concerns", "working capital", "cash position",
+      "covenant compliance", "debt levels", "leverage ratio",
+      "capital allocation", "dividend sustainability", "buyback suspension",
+      "credit rating", "downgrade risk", "access to capital",
+      "balance sheet pressure", "debt reduction", "deleveraging",
+      "funding requirements", "capital needs", "cash runway"
+    ],
+    "tech_execution_risk": [
+      "product delay", "launch delay", "development setback",
+      "technical challenges", "engineering complexity", "scalability issues",
+      "platform migration", "system integration", "technical debt",
+      "cybersecurity", "security breach", "data breach",
+      "AI implementation", "cloud migration", "digital transformation",
+      "product quality issues", "bug fixes", "reliability concerns",
+      "technology transition", "legacy systems", "infrastructure costs",
+      "R&D investment", "innovation risk", "product roadmap uncertainty"
+    ],
+    "labor_risk": [
+      "talent shortage", "hiring challenges", "recruitment difficulties",
+      "employee attrition", "turnover rate", "retention challenges",
+      "layoffs", "workforce reduction", "restructuring charges",
+      "labor costs", "compensation increases", "wage pressure",
+      "skills gap", "talent competition", "labor market tightness",
+      "union negotiations", "labor relations", "employee satisfaction",
+      "remote work challenges", "return to office", "workplace culture",
+      "headcount reduction", "hiring freeze", "organizational changes"
+    ],
+    "geopolitical_risk": [
+      "geopolitical", "trade war", "tariffs", "sanctions",
+      "China risk", "China exposure", "China operations",
+      "Russia", "Ukraine", "conflict", "war",
+      "political instability", "regime change", "election uncertainty",
+      "nationalization", "expropriation", "sovereign risk",
+      "cross-border", "international tensions", "diplomatic relations",
+      "supply chain diversification", "nearshoring", "reshoring",
+      "export restrictions", "technology restrictions", "decoupling"
+    ]
+  },
+  "severity_modifiers": {
+    "intensifiers": [
+      "significant", "significant impact", "major", "severe", "critical",
+      "substantial", "considerable", "dramatic", "unprecedented", "extreme",
+      "alarming", "acute", "intensifying", "escalating", "mounting",
+      "profound", "massive", "enormous", "devastating", "serious",
+      "outsized", "meaningful", "material", "notable", "marked"
+    ],
+    "diminishers": [
+      "minor", "slight", "marginal", "modest", "limited",
+      "manageable", "contained", "moderate", "small", "minimal",
+      "negligible", "immaterial", "temporary", "transient", "short-lived",
+      "stabilizing", "improving", "recovering", "normalizing", "easing"
+    ]
+  },
+  "negation_words": [
+    "no", "not", "never", "without", "none", "neither", "nor",
+    "reduced", "mitigated", "eliminated", "resolved", "avoided",
+    "overcame", "addressed", "managed", "minimized", "offset",
+    "despite", "notwithstanding", "regardless", "absent"
+  ]
+}
