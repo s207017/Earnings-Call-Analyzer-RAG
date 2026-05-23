@@ -34,6 +34,12 @@ Thumbs.db
 # Streamlit
 .streamlit/cache/
 
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+
 # Environment
 .env
 *.env
