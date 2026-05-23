@@ -1,6 +1,6 @@
 # Earnings Call Analyzer (RAG)
 
-A multi-agent NLP system that analyzes earnings call transcripts using sentiment analysis, risk detection, and retrieval-augmented generation (RAG) for interactive Q&A.
+An NLP-powered tool that analyzes earnings call transcripts using sentiment analysis, risk detection, and retrieval-augmented generation (RAG) for interactive Q&A.
 
 ## Features
 
