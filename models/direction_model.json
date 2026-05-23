@@ -1,0 +1,64 @@
+{
+  "n_train": 13478,
+  "n_features": 43,
+  "baseline_accuracy": 0.5094969580056388,
+  "cv_results": {
+    "logistic_regression": {
+      "mean": 0.5304929724789835,
+      "std": 0.00860883317794256
+    },
+    "random_forest": {
+      "mean": 0.5258196847662723,
+      "std": 0.005458059618939606
+    },
+    "gradient_boosting": {
+      "mean": 0.5172868759049344,
+      "std": 0.004597488702074553
+    }
+  },
+  "feature_cols": [
+    "mean_lm_net_score",
+    "mean_lm_positive_score",
+    "mean_lm_negative_score",
+    "mean_lm_uncertainty_score",
+    "mean_vader_compound",
+    "mgmt_sentiment",
+    "analyst_sentiment",
+    "prepared_sentiment",
+    "qa_sentiment",
+    "sentiment_divergence",
+    "total_risk_count",
+    "avg_risk_intensity",
+    "num_risk_categories",
+    "call_fog_index",
+    "call_flesch_kincaid",
+    "call_avg_sentence_length",
+    "call_avg_word_length",
+    "call_vocab_richness",
+    "call_fls_ratio",
+    "call_fls_count",
+    "call_numbers_per_sentence",
+    "call_dollar_mentions",
+    "call_percent_mentions",
+    "call_specificity_score",
+    "qa_mgmt_word_ratio",
+    "qa_avg_answer_length",
+    "qa_avg_question_length",
+    "qa_answer_question_ratio",
+    "qa_deflection_count",
+    "qa_deflection_rate",
+    "qa_filler_rate",
+    "qa_passive_rate",
+    "qa_pronoun_shift",
+    "qa_specificity_drop",
+    "mean_lm_net_score_momentum",
+    "mean_vader_compound_momentum",
+    "risk_delta",
+    "qa_weighted_sentiment",
+    "negative_emphasis",
+    "neg_pos_ratio",
+    "uncertainty_adj_sentiment",
+    "mgmt_analyst_divergence",
+    "risk_sentiment_interaction"
+  ]
+}

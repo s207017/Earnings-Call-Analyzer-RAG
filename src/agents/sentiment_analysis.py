@@ -123,6 +123,55 @@ class SentimentAnalyzer:
 
         return results
 
+    def finbert_sentence_sentiment(self, texts: List[str], batch_size: int = None) -> List[List[Dict]]:
+        """Score individual sentences within each text using FinBERT.
+
+        Returns a list (one per text) of lists of {sentence, label, score} dicts.
+        """
+        import re
+
+        if batch_size is None:
+            batch_size = self.config["sentiment"].get("finbert_batch_size", 8)
+
+        pipe = self._load_finbert()
+
+        # Split all texts into sentences and track mapping
+        all_sentences = []
+        text_indices = []  # which text each sentence belongs to
+        sent_indices = []  # position within that text
+
+        for i, text in enumerate(texts):
+            sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', text) if len(s.strip()) > 10]
+            if not sentences:
+                sentences = [text[:500]]
+            for j, sent in enumerate(sentences):
+                all_sentences.append(sent[:512])
+                text_indices.append(i)
+                sent_indices.append(j)
+
+        # Batch score all sentences
+        all_results = []
+        for i in range(0, len(all_sentences), batch_size):
+            batch = all_sentences[i:i + batch_size]
+            try:
+                outputs = pipe(batch, batch_size=batch_size)
+                all_results.extend(outputs)
+            except Exception as e:
+                logger.error(f"FinBERT sentence batch error: {e}")
+                all_results.extend([{"label": "neutral", "score": 0.5}] * len(batch))
+
+        # Group results back by text
+        result_by_text = [[] for _ in range(len(texts))]
+        for idx, (ti, si) in enumerate(zip(text_indices, sent_indices)):
+            out = all_results[idx]
+            result_by_text[ti].append({
+                "sentence": all_sentences[idx],
+                "label": out["label"].lower(),
+                "score": out["score"],
+            })
+
+        return result_by_text
+
     def vader_sentiment(self, text: str) -> Dict[str, float]:
         """Compute VADER sentiment scores."""
         analyzer = self._load_vader()

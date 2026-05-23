@@ -2,6 +2,7 @@
 
 import logging
 import os
+import re
 from pathlib import Path
 from typing import List, Dict, Optional
 
@@ -20,6 +21,28 @@ Rules:
 5. Distinguish between management statements (prepared remarks) and analyst Q&A responses.
 6. Note the speaker and their role when relevant.
 """
+
+# Financial query expansion patterns — maps vague terms to specific sub-queries
+QUERY_EXPANSIONS = {
+    r"\bhow did (they|the company|it) do\b": [
+        "{query}", "revenue growth earnings", "guidance outlook",
+    ],
+    r"\bperformance\b": [
+        "{query}", "revenue earnings growth margins",
+    ],
+    r"\boutlook|guidance|forecast\b": [
+        "{query}", "expect anticipate next quarter year guidance",
+    ],
+    r"\brisk|concern|worry\b": [
+        "{query}", "challenge headwind risk pressure decline",
+    ],
+    r"\bstrategy|plan|initiative\b": [
+        "{query}", "invest growth strategy plan initiative opportunity",
+    ],
+    r"\bcompetition|competitive\b": [
+        "{query}", "market share competitive advantage differentiation",
+    ],
+}
 
 
 class RAGEngine:
@@ -142,14 +165,56 @@ class RAGEngine:
 
     def _extract_citations(self, answer: str) -> List[int]:
         """Extract citation indices from answer text."""
-        import re
         return sorted(set(int(m) for m in re.findall(r"\[(\d+)\]", answer)))
+
+    def _expand_query(self, query: str) -> List[str]:
+        """Expand vague queries into multiple specific sub-queries for better retrieval."""
+        queries = [query]
+        query_lower = query.lower()
+
+        for pattern, expansions in QUERY_EXPANSIONS.items():
+            if re.search(pattern, query_lower):
+                for expansion in expansions:
+                    expanded = expansion.format(query=query)
+                    if expanded != query:
+                        queries.append(expanded)
+                break  # only apply first matching pattern
+
+        return queries
+
+    def _multi_query_retrieve(self, queries: List[str], top_k: int,
+                              filters: Dict = None) -> List[Dict]:
+        """Retrieve from multiple queries and deduplicate by chunk_id."""
+        seen = set()
+        all_results = []
+
+        for q in queries:
+            results = self.retrieval.hybrid_search(
+                q, top_k=top_k, filters=filters, rerank=True)
+            for r in results:
+                cid = r["chunk_id"]
+                if cid not in seen:
+                    seen.add(cid)
+                    all_results.append(r)
+
+        # Re-rank combined results against original query
+        if len(queries) > 1 and self.retrieval.rerank_enabled:
+            all_results = self.retrieval.rerank(queries[0], all_results, top_k)
+
+        return all_results[:top_k]
 
     def answer(self, question: str, filters: Dict = None,
                top_k: int = 5) -> Dict:
-        """Retrieve relevant chunks and generate answer with citations."""
-        # Retrieve
-        sources = self.retrieval.hybrid_search(question, top_k=top_k * 2, filters=filters)
+        """Retrieve relevant chunks and generate answer with citations.
+
+        Uses query expansion for vague questions, cross-encoder re-ranking,
+        and metadata filtering.
+        """
+        # Expand query for better coverage
+        queries = self._expand_query(question)
+
+        # Retrieve with multi-query + re-ranking
+        sources = self._multi_query_retrieve(queries, top_k=top_k * 2, filters=filters)
         sources = self._truncate_context(sources)
 
         if not sources:
@@ -193,6 +258,7 @@ class RAGEngine:
             "sources": sources[:top_k],
             "cited_sources": cited_sources,
             "model_used": f"{self.llm_provider}/{self.llm_model}",
+            "queries_used": queries,
         }
 
     def clear_history(self):

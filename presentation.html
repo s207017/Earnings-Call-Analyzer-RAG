@@ -3,1371 +3,522 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Earnings Call Analyzer</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<title>Earnings Call Analyzer — BC3409 Individual Assignment</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-:root {
-  --bg-dark: #0a0a0f;
-  --bg-card: #12121a;
-  --bg-card-hover: #1a1a2e;
-  --accent-blue: #4f7df5;
-  --accent-purple: #8b5cf6;
-  --accent-cyan: #22d3ee;
-  --accent-green: #34d399;
-  --accent-orange: #f97316;
-  --accent-red: #ef4444;
-  --accent-pink: #ec4899;
-  --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
-  --gradient-1: linear-gradient(135deg, #4f7df5, #8b5cf6);
-  --gradient-2: linear-gradient(135deg, #22d3ee, #4f7df5);
-  --gradient-3: linear-gradient(135deg, #8b5cf6, #ec4899);
-  --gradient-4: linear-gradient(135deg, #34d399, #22d3ee);
-  --gradient-5: linear-gradient(135deg, #f97316, #ef4444);
-}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden;font-family:'Inter',sans-serif;background:#0a0a0f;color:#e2e8f0}
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+/* ── Slide container ── */
+.deck{position:relative;width:100%;height:100%}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:60px 100px;opacity:0;pointer-events:none;transition:opacity .5s ease,transform .5s ease;transform:translateY(30px)}
+.slide.active{opacity:1;pointer-events:auto;transform:translateY(0)}
 
-body {
-  font-family: 'Inter', -apple-system, sans-serif;
-  background: var(--bg-dark);
-  color: var(--text-primary);
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
-}
-
-/* ── Slide Container ── */
-.deck {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-}
-
-.slide {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 80px;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-  pointer-events: none;
-  overflow-y: auto;
-}
-
-.slide.active {
-  opacity: 1;
-  transform: translateY(0);
-  pointer-events: all;
-}
-
-.slide-inner {
-  max-width: 1200px;
-  width: 100%;
-}
-
-/* ── Background Effects ── */
-.bg-glow {
-  position: fixed;
-  width: 600px;
-  height: 600px;
-  border-radius: 50%;
-  filter: blur(150px);
-  opacity: 0.15;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.glow-1 { background: var(--accent-blue); top: -200px; right: -200px; }
-.glow-2 { background: var(--accent-purple); bottom: -200px; left: -200px; }
-.glow-3 { background: var(--accent-cyan); top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.08; }
-
-/* ── Grid Pattern ── */
-.grid-bg {
-  position: fixed;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(79, 125, 245, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(79, 125, 245, 0.03) 1px, transparent 1px);
-  background-size: 60px 60px;
-  pointer-events: none;
-  z-index: 0;
-}
+/* ── Background effects ── */
+.slide::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(79,125,245,.015) 1px,transparent 1px),linear-gradient(90deg,rgba(79,125,245,.015) 1px,transparent 1px);background-size:60px 60px;pointer-events:none}
+.glow{position:absolute;border-radius:50%;filter:blur(120px);pointer-events:none;opacity:.4}
+.glow-blue{width:400px;height:400px;background:rgba(79,125,245,.15);top:-100px;right:-50px}
+.glow-purple{width:350px;height:350px;background:rgba(139,92,246,.12);bottom:-80px;left:-50px}
+.glow-green{width:300px;height:300px;background:rgba(52,211,153,.1);top:50%;left:60%}
 
 /* ── Typography ── */
-.slide-label {
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  background: var(--gradient-1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
-}
-
-h1 {
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 1.05;
-  letter-spacing: -2px;
-  margin-bottom: 24px;
-}
-
-h1 .gradient-text {
-  background: var(--gradient-1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-h2 {
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 1.1;
-  letter-spacing: -1.5px;
-  margin-bottom: 20px;
-}
-
-h2 .gradient-text { background: var(--gradient-1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-h2 .gradient-text-2 { background: var(--gradient-2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-h2 .gradient-text-3 { background: var(--gradient-3); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-h2 .gradient-text-4 { background: var(--gradient-4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-h2 .gradient-text-5 { background: var(--gradient-5); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-
-h3 {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-.subtitle {
-  font-size: 22px;
-  font-weight: 400;
-  color: var(--text-secondary);
-  line-height: 1.6;
-  max-width: 700px;
-}
-
-.body-text {
-  font-size: 18px;
-  color: var(--text-secondary);
-  line-height: 1.7;
-  max-width: 800px;
-}
+h1{font-size:52px;font-weight:900;letter-spacing:-1.5px;line-height:1.15;background:linear-gradient(135deg,#e2e8f0 0%,#94a3b8 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+h2{font-size:38px;font-weight:800;letter-spacing:-1px;margin-bottom:32px;color:#f1f5f9}
+h3{font-size:22px;font-weight:700;color:#94a3b8;margin-bottom:16px;text-transform:uppercase;letter-spacing:2px;font-size:13px}
+p,.desc{font-size:18px;color:#94a3b8;line-height:1.7;max-width:700px}
+.subtitle{font-size:22px;color:#64748b;margin-top:16px;font-weight:400}
+.accent{color:#4f7df5}
+.accent-green{color:#34d399}
+.accent-purple{color:#8b5cf6}
+.accent-orange{color:#f97316}
+.accent-red{color:#ef4444}
+.bold{font-weight:700;color:#e2e8f0}
 
 /* ── Cards ── */
-.card-grid {
-  display: grid;
-  gap: 20px;
-  margin-top: 32px;
-}
+.cards{display:grid;gap:20px;margin-top:32px}
+.cards-2{grid-template-columns:1fr 1fr}
+.cards-3{grid-template-columns:1fr 1fr 1fr}
+.cards-4{grid-template-columns:1fr 1fr 1fr 1fr}
+.card{background:rgba(24,24,37,.8);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:28px;backdrop-filter:blur(10px);transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-2px);border-color:rgba(79,125,245,.3)}
+.card-title{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#64748b;margin-bottom:12px}
+.card-value{font-size:36px;font-weight:800;letter-spacing:-1px}
+.card-sub{font-size:13px;color:#64748b;margin-top:8px}
+.card-body{font-size:15px;color:#94a3b8;line-height:1.6}
+.card-icon{font-size:32px;margin-bottom:12px}
 
-.grid-2 { grid-template-columns: 1fr 1fr; }
-.grid-3 { grid-template-columns: 1fr 1fr 1fr; }
-.grid-4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
-.grid-5 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+/* ── Metrics row ── */
+.metrics{display:flex;gap:24px;margin-top:28px;flex-wrap:wrap}
+.metric{text-align:center;min-width:120px}
+.metric-val{font-size:42px;font-weight:800;letter-spacing:-1px}
+.metric-label{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:#64748b;margin-top:4px}
 
-.card {
-  background: var(--bg-card);
-  border: 1px solid rgba(255,255,255,0.06);
-  border-radius: 16px;
-  padding: 28px;
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
+/* ── Tags ── */
+.tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin:4px}
+.tag-blue{background:rgba(79,125,245,.15);color:#4f7df5}
+.tag-green{background:rgba(52,211,153,.15);color:#34d399}
+.tag-purple{background:rgba(139,92,246,.15);color:#8b5cf6}
+.tag-orange{background:rgba(249,115,22,.15);color:#f97316}
+.tag-red{background:rgba(239,68,68,.15);color:#ef4444}
 
-.card::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-  background: var(--gradient-1);
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.card:hover {
-  background: var(--bg-card-hover);
-  border-color: rgba(79, 125, 245, 0.2);
-  transform: translateY(-4px);
-}
-
-.card:hover::before { opacity: 1; }
-
-.card-icon {
-  font-size: 36px;
-  margin-bottom: 16px;
-  display: block;
-}
-
-.card h3 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.card p {
-  font-size: 15px;
-  color: var(--text-secondary);
-  line-height: 1.6;
-}
-
-/* ── Stat Cards ── */
-.stat-card {
-  background: var(--bg-card);
-  border: 1px solid rgba(255,255,255,0.06);
-  border-radius: 16px;
-  padding: 24px 28px;
-  text-align: center;
-}
-
-.stat-card .stat-value {
-  font-size: 42px;
-  font-weight: 800;
-  letter-spacing: -1px;
-  background: var(--gradient-1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.stat-card .stat-label {
-  font-size: 14px;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-top: 4px;
-}
-
-/* ── Code Block ── */
-.code-block {
-  background: #0d1117;
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 12px;
-  padding: 24px 28px;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 14px;
-  line-height: 1.8;
-  color: #c9d1d9;
-  overflow-x: auto;
-  margin-top: 20px;
-}
-
-.code-block .keyword { color: #ff7b72; }
-.code-block .string { color: #a5d6ff; }
-.code-block .comment { color: #8b949e; }
-.code-block .func { color: #d2a8ff; }
-.code-block .number { color: #79c0ff; }
-.code-block .operator { color: #ff7b72; }
-
-/* ── Pipeline Flow ── */
-.pipeline {
-  display: flex;
-  align-items: center;
-  gap: 0;
-  margin-top: 36px;
-  flex-wrap: nowrap;
-}
-
-.pipeline-step {
-  background: var(--bg-card);
-  border: 1px solid rgba(255,255,255,0.06);
-  border-radius: 14px;
-  padding: 20px 22px;
-  text-align: center;
-  flex: 1;
-  min-width: 0;
-  transition: all 0.3s;
-}
-
-.pipeline-step:hover {
-  background: var(--bg-card-hover);
-  transform: translateY(-4px);
-}
-
-.pipeline-step .step-icon { font-size: 28px; margin-bottom: 8px; }
-.pipeline-step h4 { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
-.pipeline-step p { font-size: 12px; color: var(--text-muted); }
-
-.pipeline-arrow {
-  font-size: 20px;
-  color: var(--accent-blue);
-  padding: 0 6px;
-  flex-shrink: 0;
-}
+/* ── Pipeline / flow ── */
+.flow{display:flex;align-items:center;gap:12px;margin:24px 0;flex-wrap:wrap}
+.flow-step{background:rgba(24,24,37,.9);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:16px 24px;font-size:14px;font-weight:600;color:#c6cdd5}
+.flow-arrow{color:#4f7df5;font-size:20px;font-weight:700}
 
 /* ── Table ── */
-.styled-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  font-size: 15px;
-}
+.table-wrap{margin-top:24px;overflow:hidden;border-radius:12px;border:1px solid rgba(255,255,255,.06)}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th{background:rgba(79,125,245,.08);color:#94a3b8;font-weight:700;text-transform:uppercase;font-size:11px;letter-spacing:1.5px;padding:14px 20px;text-align:left}
+td{padding:12px 20px;color:#c6cdd5;border-top:1px solid rgba(255,255,255,.04)}
+tr:hover td{background:rgba(79,125,245,.03)}
 
-.styled-table thead th {
-  text-align: left;
-  padding: 14px 18px;
-  font-weight: 600;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--text-muted);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
+/* ── Bullet list ── */
+.bullets{list-style:none;margin-top:20px}
+.bullets li{padding:10px 0;padding-left:24px;position:relative;font-size:17px;color:#c6cdd5;line-height:1.6}
+.bullets li::before{content:'\2192';position:absolute;left:0;color:#4f7df5;font-weight:700}
 
-.styled-table tbody td {
-  padding: 14px 18px;
-  border-bottom: 1px solid rgba(255,255,255,0.04);
-  color: var(--text-secondary);
-}
+/* ── Two columns ── */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
 
-.styled-table tbody tr:hover {
-  background: rgba(79, 125, 245, 0.05);
-}
+/* ── Bar chart (CSS) ── */
+.bar-chart{margin-top:20px}
+.bar-row{display:flex;align-items:center;margin:8px 0}
+.bar-label{width:140px;font-size:13px;color:#94a3b8;text-align:right;padding-right:16px;font-weight:600}
+.bar-track{flex:1;height:28px;background:rgba(255,255,255,.03);border-radius:6px;overflow:hidden;position:relative}
+.bar-fill{height:100%;border-radius:6px;display:flex;align-items:center;padding-left:12px;font-size:12px;font-weight:700;color:#fff;transition:width 1s ease}
+.bar-blue{background:linear-gradient(90deg,#4f7df5,#6b8ff7)}
+.bar-green{background:linear-gradient(90deg,#34d399,#4ade80)}
+.bar-purple{background:linear-gradient(90deg,#8b5cf6,#a78bfa)}
 
-/* ── Tags / Badges ── */
-.tag {
-  display: inline-block;
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: 600;
-  margin: 3px;
-}
-
-.tag-blue { background: rgba(79,125,245,0.15); color: var(--accent-blue); }
-.tag-purple { background: rgba(139,92,246,0.15); color: var(--accent-purple); }
-.tag-cyan { background: rgba(34,211,238,0.15); color: var(--accent-cyan); }
-.tag-green { background: rgba(52,211,153,0.15); color: var(--accent-green); }
-.tag-orange { background: rgba(249,115,22,0.15); color: var(--accent-orange); }
-.tag-red { background: rgba(239,68,68,0.15); color: var(--accent-red); }
-.tag-pink { background: rgba(236,72,153,0.15); color: var(--accent-pink); }
-
-/* ── Architecture Diagram ── */
-.arch-diagram {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin-top: 28px;
-}
-
-.arch-layer {
-  background: var(--bg-card);
-  border: 1px solid rgba(255,255,255,0.06);
-  border-radius: 14px;
-  padding: 20px 28px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.arch-layer-label {
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: var(--text-muted);
-  min-width: 100px;
-}
-
-.arch-modules {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  flex: 1;
-}
-
-.arch-module {
-  padding: 8px 16px;
-  border-radius: 8px;
-  font-size: 13px;
-  font-weight: 600;
-  border: 1px solid;
-}
-
-/* ── Animated Number Counter ── */
-.counter {
-  font-variant-numeric: tabular-nums;
-}
-
-/* ── Progress Bar ── */
-.metric-bar {
-  margin-top: 12px;
-}
-
-.metric-bar-label {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  margin-bottom: 6px;
-}
-
-.metric-bar-track {
-  height: 8px;
-  background: rgba(255,255,255,0.06);
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.metric-bar-fill {
-  height: 100%;
-  border-radius: 4px;
-  transition: width 1s ease;
-}
+/* ── Highlight box ── */
+.highlight-box{background:rgba(79,125,245,.06);border:1px solid rgba(79,125,245,.2);border-radius:12px;padding:24px 28px;margin:20px 0}
+.highlight-box.green{background:rgba(52,211,153,.06);border-color:rgba(52,211,153,.2)}
+.highlight-box.purple{background:rgba(139,92,246,.06);border-color:rgba(139,92,246,.2)}
+.highlight-box.red{background:rgba(239,68,68,.06);border-color:rgba(239,68,68,.2)}
 
 /* ── Navigation ── */
-.nav {
-  position: fixed;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  z-index: 100;
-  background: rgba(18,18,26,0.9);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 50px;
-  padding: 10px 20px;
-}
-
-.nav-btn {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid rgba(255,255,255,0.1);
-  background: transparent;
-  color: var(--text-primary);
-  font-size: 18px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s;
-}
-
-.nav-btn:hover {
-  background: var(--accent-blue);
-  border-color: var(--accent-blue);
-}
-
-.nav-dots {
-  display: flex;
-  gap: 6px;
-}
-
-.nav-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: rgba(255,255,255,0.15);
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.nav-dot.active {
-  background: var(--accent-blue);
-  width: 24px;
-  border-radius: 4px;
-}
-
-.slide-counter {
-  font-size: 13px;
-  color: var(--text-muted);
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  min-width: 50px;
-  text-align: center;
-}
+.nav{position:fixed;bottom:24px;right:32px;display:flex;gap:8px;z-index:100}
+.nav button{background:rgba(24,24,37,.9);border:1px solid rgba(255,255,255,.1);color:#94a3b8;width:44px;height:44px;border-radius:10px;cursor:pointer;font-size:18px;backdrop-filter:blur(10px);transition:all .2s}
+.nav button:hover{background:rgba(79,125,245,.15);color:#e2e8f0;border-color:rgba(79,125,245,.3)}
+.progress-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#4f7df5,#8b5cf6);transition:width .4s ease;z-index:100}
+.slide-counter{position:fixed;bottom:30px;left:32px;font-size:12px;color:#475569;font-weight:600;letter-spacing:1px;z-index:100}
 
 /* ── Animations ── */
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 0.15; }
-  50% { opacity: 0.25; }
-}
-
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.slide.active .animate-in {
-  animation: fadeInUp 0.6s ease forwards;
-}
-
-.slide.active .delay-1 { animation-delay: 0.1s; opacity: 0; }
-.slide.active .delay-2 { animation-delay: 0.2s; opacity: 0; }
-.slide.active .delay-3 { animation-delay: 0.3s; opacity: 0; }
-.slide.active .delay-4 { animation-delay: 0.4s; opacity: 0; }
-.slide.active .delay-5 { animation-delay: 0.5s; opacity: 0; }
-.slide.active .delay-6 { animation-delay: 0.6s; opacity: 0; }
-
-.glow-1 { animation: pulse 4s ease-in-out infinite; }
-.glow-2 { animation: pulse 5s ease-in-out infinite 1s; }
-
-/* ── Two Column ── */
-.two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
-  align-items: start;
-}
-
-.two-col-wide {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 48px;
-  align-items: start;
-}
-
-/* ── Highlight Box ── */
-.highlight-box {
-  background: rgba(79, 125, 245, 0.08);
-  border: 1px solid rgba(79, 125, 245, 0.2);
-  border-radius: 12px;
-  padding: 20px 24px;
-  margin-top: 16px;
-}
-
-.highlight-box p {
-  font-size: 16px;
-  color: var(--text-secondary);
-  line-height: 1.6;
-}
-
-/* ── Scrollbar ── */
-.slide::-webkit-scrollbar { width: 4px; }
-.slide::-webkit-scrollbar-track { background: transparent; }
-.slide::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
-
-/* ── Responsive ── */
-@media (max-width: 900px) {
-  .slide { padding: 30px 24px; }
-  h1 { font-size: 42px; }
-  h2 { font-size: 32px; }
-  .grid-3, .grid-4, .grid-5 { grid-template-columns: 1fr 1fr; }
-  .two-col, .two-col-wide { grid-template-columns: 1fr; }
-  .pipeline { flex-wrap: wrap; }
-}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.slide.active .anim{animation:fadeUp .6s ease forwards}
+.slide.active .anim-d1{animation-delay:.1s;opacity:0}
+.slide.active .anim-d2{animation-delay:.2s;opacity:0}
+.slide.active .anim-d3{animation-delay:.3s;opacity:0}
+.slide.active .anim-d4{animation-delay:.4s;opacity:0}
+.slide.active .anim-d5{animation-delay:.5s;opacity:0}
 </style>
 </head>
 <body>
 
-<div class="bg-glow glow-1"></div>
-<div class="bg-glow glow-2"></div>
-<div class="bg-glow glow-3"></div>
-<div class="grid-bg"></div>
+<div class="progress-bar" id="progress"></div>
+<div class="slide-counter" id="counter"></div>
 
 <div class="deck" id="deck">
 
-<!-- ═══════════ SLIDE 1: TITLE ═══════════ -->
-<div class="slide active" data-slide="0">
-  <div class="slide-inner" style="text-align:center;">
-    <div class="animate-in delay-1 slide-label">BC3409 Individual Assignment</div>
-    <h1 class="animate-in delay-2">
-      Earnings Call<br><span class="gradient-text">Analyzer</span>
-    </h1>
-    <p class="subtitle animate-in delay-3" style="margin: 0 auto 40px;">
-      NLP-powered sentiment analysis, risk detection, and RAG-based Q&A<br>
-      over 1,108 earnings call transcripts from 49 global companies
-    </p>
-    <div class="card-grid grid-4 animate-in delay-4" style="max-width:800px; margin:0 auto;">
-      <div class="stat-card">
-        <div class="stat-value">49</div>
-        <div class="stat-label">Companies</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">1,108</div>
-        <div class="stat-label">Transcripts</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">30K</div>
-        <div class="stat-label">Text Chunks</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">7</div>
-        <div class="stat-label">Dashboard Pages</div>
-      </div>
-    </div>
+<!-- SLIDE 1: TITLE -->
+<div class="slide active">
+  <div class="glow glow-blue"></div>
+  <div class="glow glow-purple"></div>
+  <h3 class="anim">BC3409 Individual Assignment</h3>
+  <h1 class="anim anim-d1" style="font-size:56px">Earnings Call Analyzer</h1>
+  <p class="subtitle anim anim-d2">NLP-Powered Sentiment, Risk Detection &amp; RAG Q&amp;A<br>for S&amp;P 500 Earnings Transcripts</p>
+  <div style="margin-top:40px" class="anim anim-d3">
+    <span class="tag tag-blue">3 Sentiment Models</span>
+    <span class="tag tag-red">10 Risk Categories</span>
+    <span class="tag tag-purple">RAG with Hybrid Search</span>
+    <span class="tag tag-green">ML Stock Prediction</span>
+    <span class="tag tag-orange">1,100+ Historical Calls</span>
   </div>
+  <p style="margin-top:48px;font-size:14px;color:#475569" class="anim anim-d4">Built with Python, Streamlit, FAISS, Sentence-Transformers, Ollama (Llama 3.2)</p>
 </div>
 
-<!-- ═══════════ SLIDE 2: PROBLEM ═══════════ -->
-<div class="slide" data-slide="1">
-  <div class="slide-inner">
-    <div class="animate-in delay-1 slide-label">The Problem</div>
-    <h2 class="animate-in delay-2">Earnings calls are <span class="gradient-text-3">information-dense</span><br>but hard to analyze at scale</h2>
-    <div class="two-col animate-in delay-3">
-      <div>
-        <p class="body-text" style="margin-bottom: 28px;">
-          Every quarter, executives discuss financial results, forward guidance, and risks in hours-long calls. Analysts manually listen, take notes, and try to gauge management tone.
-        </p>
-        <div class="card" style="margin-bottom:16px;">
-          <span class="card-icon">&#128196;</span>
-          <h3>Unstructured Text</h3>
-          <p>Transcripts are thousands of words of natural language — not easily quantifiable</p>
-        </div>
-        <div class="card">
-          <span class="card-icon">&#9203;</span>
-          <h3>Time-Intensive</h3>
-          <p>Reading 1,108 transcripts manually would take ~2,200 hours</p>
-        </div>
-      </div>
-      <div>
-        <div class="card" style="margin-bottom:16px;">
-          <span class="card-icon">&#127793;</span>
-          <h3>Hidden Signals</h3>
-          <p>Subtle shifts in tone, risk language, and management confidence are easy to miss</p>
-        </div>
-        <div class="card" style="margin-bottom:16px;">
-          <span class="card-icon">&#128200;</span>
-          <h3>Market Impact?</h3>
-          <p>Can NLP-extracted sentiment predict post-earnings stock moves?</p>
-        </div>
-        <div class="highlight-box">
-          <p><strong>Our solution:</strong> An automated pipeline that ingests, parses, analyzes, and visualizes earnings calls — then lets you ask questions in natural language.</p>
+<!-- SLIDE 2: PROBLEM -->
+<div class="slide">
+  <div class="glow glow-blue" style="top:20%;left:60%"></div>
+  <h3 class="anim">The Problem</h3>
+  <h2 class="anim anim-d1">Earnings calls contain signals<br>hidden in <span class="accent">60+ pages</span> of text</h2>
+  <div class="cols anim anim-d2">
+    <div>
+      <ul class="bullets">
+        <li>Analysts manually read thousands of transcripts per quarter</li>
+        <li>Subtle language shifts predict stock movement but humans miss them</li>
+        <li>Management tone vs analyst tone divergence is the <span class="bold">#1 return predictor</span></li>
+        <li>Risk signals are buried across prepared remarks and Q&amp;A sections</li>
+      </ul>
+    </div>
+    <div>
+      <div class="highlight-box">
+        <div style="font-size:14px;color:#64748b;font-weight:600;margin-bottom:8px">RESEARCH FINDING</div>
+        <div style="font-size:17px;color:#c6cdd5;line-height:1.6">
+          Raw sentiment scores are <span class="accent-red">statistically insignificant</span> for predicting returns (p &gt; 0.5).
+          What matters is <span class="accent-green">momentum</span> (QoQ change), <span class="accent">analyst sentiment</span> (p &lt; 0.001),
+          and <span class="accent-purple">prepared vs Q&amp;A divergence</span> (p = 0.002).
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ═══════════ SLIDE 3: PIPELINE ═══════════ -->
-<div class="slide" data-slide="2">
-  <div class="slide-inner">
-    <div class="animate-in delay-1 slide-label">System Architecture</div>
-    <h2 class="animate-in delay-2">End-to-end <span class="gradient-text-2">pipeline</span></h2>
-    <div class="pipeline animate-in delay-3">
-      <div class="pipeline-step">
-        <div class="step-icon">&#128230;</div>
-        <h4>Data Collection</h4>
-        <p>2 Kaggle datasets</p>
-      </div>
-      <div class="pipeline-arrow">&#10132;</div>
-      <div class="pipeline-step">
-        <div class="step-icon">&#9986;</div>
-        <h4>Parsing</h4>
-        <p>Speaker + chunking</p>
-      </div>
-      <div class="pipeline-arrow">&#10132;</div>
-      <div class="pipeline-step">
-        <div class="step-icon">&#128172;</div>
-        <h4>Sentiment</h4>
-        <p>LM / VADER / FinBERT</p>
-      </div>
-      <div class="pipeline-arrow">&#10132;</div>
-      <div class="pipeline-step">
-        <div class="step-icon">&#9888;</div>
-        <h4>Risk</h4>
-        <p>10 categories</p>
-      </div>
-      <div class="pipeline-arrow">&#10132;</div>
-      <div class="pipeline-step">
-        <div class="step-icon">&#128270;</div>
-        <h4>RAG Index</h4>
-        <p>FAISS + BM25</p>
-      </div>
-      <div class="pipeline-arrow">&#10132;</div>
-      <div class="pipeline-step">
-        <div class="step-icon">&#128176;</div>
-        <h4>Finance</h4>
-        <p>Returns + regression</p>
-      </div>
-      <div class="pipeline-arrow">&#10132;</div>
-      <div class="pipeline-step">
-        <div class="step-icon">&#128202;</div>
-        <h4>Dashboard</h4>
-        <p>7-page Streamlit</p>
+<!-- SLIDE 3: ARCHITECTURE -->
+<div class="slide">
+  <div class="glow glow-purple" style="top:10%;right:10%"></div>
+  <h3 class="anim">System Architecture</h3>
+  <h2 class="anim anim-d1">End-to-End NLP Pipeline</h2>
+  <div class="flow anim anim-d2">
+    <div class="flow-step">PDF Upload</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Transcript Parsing<br><small style="color:#64748b">Speaker &amp; role detection</small></div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Sentiment Analysis<br><small style="color:#64748b">LM + VADER + FinBERT</small></div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Risk Detection<br><small style="color:#64748b">Keyword + Semantic</small></div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">ML Prediction<br><small style="color:#64748b">Ensemble classifier</small></div>
+  </div>
+  <div class="flow anim anim-d3" style="margin-top:12px">
+    <div class="flow-step">RAG Q&amp;A<br><small style="color:#64748b">FAISS + BM25 + Cross-encoder</small></div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Llama 3.2 (Local)<br><small style="color:#64748b">Answer generation</small></div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Interactive Dashboard<br><small style="color:#64748b">Multi-quarter analysis</small></div>
+  </div>
+  <div class="cards cards-3 anim anim-d4" style="margin-top:36px">
+    <div class="card">
+      <div class="card-title">Data Scale</div>
+      <div class="card-value accent">30,235</div>
+      <div class="card-sub">Embedded transcript chunks in FAISS index</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Companies</div>
+      <div class="card-value accent-green">1,776</div>
+      <div class="card-sub">Companies with earnings transcripts</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Features</div>
+      <div class="card-value accent-purple">39</div>
+      <div class="card-sub">NLP features for ML models</div>
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 4: SENTIMENT -->
+<div class="slide">
+  <div class="glow glow-green" style="top:0;left:30%"></div>
+  <h3 class="anim">Sentiment Analysis</h3>
+  <h2 class="anim anim-d1">Three Models, One Story</h2>
+  <div class="cards cards-3 anim anim-d2">
+    <div class="card">
+      <div class="card-title" style="color:#4f7df5">Loughran-McDonald</div>
+      <div class="card-body">
+        Finance-specific dictionary built from 10-K filings. Catches formal language like <em>impairment</em>, <em>restructuring</em>, <em>litigation</em>.
+        <div style="margin-top:12px"><span class="tag tag-blue">Lexicon-based</span><span class="tag tag-green">Finance-tuned</span></div>
       </div>
     </div>
-    <div class="arch-diagram animate-in delay-4">
-      <div class="arch-layer">
-        <div class="arch-layer-label">Frontend</div>
-        <div class="arch-modules">
-          <div class="arch-module" style="border-color:var(--accent-blue); color:var(--accent-blue);">Streamlit</div>
-          <div class="arch-module" style="border-color:var(--accent-purple); color:var(--accent-purple);">Plotly</div>
-          <div class="arch-module" style="border-color:var(--accent-cyan); color:var(--accent-cyan);">PDF Upload</div>
+    <div class="card">
+      <div class="card-title" style="color:#f97316">VADER</div>
+      <div class="card-body">
+        Rule-based scorer for general language. Handles punctuation, capitalization, and everyday expressions that LM misses.
+        <div style="margin-top:12px"><span class="tag tag-orange">Rule-based</span><span class="tag tag-purple">General NLP</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title" style="color:#8b5cf6">FinBERT</div>
+      <div class="card-body">
+        Transformer neural network fine-tuned on financial news. Understands context&mdash;"not bad" = positive, "growth slowed" = negative.
+        <div style="margin-top:12px"><span class="tag tag-purple">Deep Learning</span><span class="tag tag-green">Contextual</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="highlight-box anim anim-d3" style="margin-top:28px">
+    <div style="font-size:15px;color:#c6cdd5">
+      <span class="bold">Key Insight:</span> We go beyond raw scores. The dashboard shows
+      <span class="accent">Management vs Analyst gap</span> (overoptimism signal),
+      <span class="accent-purple">Prepared vs Q&amp;A shift</span> (credibility under pressure), and
+      <span class="accent-green">quarter-over-quarter momentum</span> (strongest return predictor).
+    </div>
+  </div>
+</div>
+
+<!-- SLIDE 5: RISK DETECTION -->
+<div class="slide">
+  <div class="glow glow-blue" style="bottom:10%;right:20%"></div>
+  <h3 class="anim">Risk Detection</h3>
+  <h2 class="anim anim-d1">Keyword + <span class="accent-purple">Semantic RAG</span> Detection</h2>
+  <div class="cols anim anim-d2">
+    <div>
+      <div style="font-size:15px;color:#c6cdd5;line-height:1.7;margin-bottom:20px">
+        Two-layer detection system combining traditional keyword matching with
+        embedding-based semantic similarity to catch risks expressed in novel language.
+      </div>
+      <div class="cards" style="grid-template-columns:1fr 1fr;gap:12px">
+        <div class="card" style="padding:20px">
+          <div class="card-title" style="color:#4f7df5">Keyword Layer</div>
+          <div class="card-body" style="font-size:13px">255 financial risk terms with negation handling, severity scoring (high / medium / low), and context awareness</div>
+        </div>
+        <div class="card" style="padding:20px;border-color:rgba(139,92,246,.2)">
+          <div class="card-title" style="color:#8b5cf6">Semantic Layer (RAG)</div>
+          <div class="card-body" style="font-size:13px">Embedding similarity to risk anchor sentences with differential scoring&mdash;catches risks keywords miss</div>
         </div>
       </div>
-      <div class="arch-layer">
-        <div class="arch-layer-label">NLP</div>
-        <div class="arch-modules">
-          <div class="arch-module" style="border-color:var(--accent-green); color:var(--accent-green);">Loughran-McDonald</div>
-          <div class="arch-module" style="border-color:var(--accent-green); color:var(--accent-green);">VADER</div>
-          <div class="arch-module" style="border-color:var(--accent-green); color:var(--accent-green);">FinBERT</div>
-          <div class="arch-module" style="border-color:var(--accent-orange); color:var(--accent-orange);">Risk Taxonomy</div>
-        </div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:16px">10 Risk Categories</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px">
+        <span class="tag tag-red">Demand</span><span class="tag tag-red">Margin</span>
+        <span class="tag tag-orange">Supply Chain</span><span class="tag tag-orange">Regulatory</span>
+        <span class="tag tag-blue">Competition</span><span class="tag tag-blue">FX / Macro</span>
+        <span class="tag tag-purple">Liquidity</span><span class="tag tag-purple">Tech Execution</span>
+        <span class="tag tag-green">Labor</span><span class="tag tag-green">Geopolitical</span>
       </div>
-      <div class="arch-layer">
-        <div class="arch-layer-label">Retrieval</div>
-        <div class="arch-modules">
-          <div class="arch-module" style="border-color:var(--accent-pink); color:var(--accent-pink);">FAISS (Dense)</div>
-          <div class="arch-module" style="border-color:var(--accent-pink); color:var(--accent-pink);">BM25 (Sparse)</div>
-          <div class="arch-module" style="border-color:var(--accent-pink); color:var(--accent-pink);">Reciprocal Rank Fusion</div>
-          <div class="arch-module" style="border-color:var(--accent-red); color:var(--accent-red);">Llama 3.2 (Ollama)</div>
-        </div>
-      </div>
-      <div class="arch-layer">
-        <div class="arch-layer-label">Data</div>
-        <div class="arch-modules">
-          <div class="arch-module" style="border-color:var(--text-muted); color:var(--text-muted);">Motley Fool (Kaggle)</div>
-          <div class="arch-module" style="border-color:var(--text-muted); color:var(--text-muted);">AlphaSpread (Kaggle)</div>
-          <div class="arch-module" style="border-color:var(--text-muted); color:var(--text-muted);">yfinance</div>
-          <div class="arch-module" style="border-color:var(--text-muted); color:var(--text-muted);">Apache Parquet</div>
+      <div class="highlight-box purple" style="margin-top:20px">
+        <div style="font-size:14px;color:#c6cdd5;line-height:1.6">
+          <span class="bold">RAG Value-Add:</span> Semantic detection finds risks like
+          <em>"Our pipeline is weaker than expected"</em>&mdash;no explicit risk keyword,
+          but the embedding matches the demand risk anchor. Each detection shows the matched
+          anchor sentence for <span class="accent-purple">full explainability</span>.
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ═══════════ SLIDE 4: DATA ═══════════ -->
-<div class="slide" data-slide="3">
-  <div class="slide-inner">
-    <div class="animate-in delay-1 slide-label">Data Pipeline</div>
-    <h2 class="animate-in delay-2">From raw transcripts to<br><span class="gradient-text-4">structured chunks</span></h2>
-    <div class="two-col">
-      <div class="animate-in delay-3">
-        <h3 style="margin-bottom:16px;">Transcript Parsing</h3>
-        <div class="code-block">
-          <span class="comment">// Raw transcript</span><br>
-          <span class="string">"Tim Cook -- CEO:</span><br>
-          <span class="string">&nbsp;&nbsp;We're thrilled to report record revenue</span><br>
-          <span class="string">&nbsp;&nbsp;of $94.8 billion for the quarter..."</span><br><br>
-          <span class="comment">// Parsed chunk</span><br>
-          {<br>
-          &nbsp;&nbsp;<span class="keyword">chunk_id</span>: <span class="string">"AAPL_2024Q3_0012"</span>,<br>
-          &nbsp;&nbsp;<span class="keyword">speaker</span>: <span class="string">"Tim Cook"</span>,<br>
-          &nbsp;&nbsp;<span class="keyword">role</span>: <span class="string">"CEO"</span>,<br>
-          &nbsp;&nbsp;<span class="keyword">section</span>: <span class="string">"prepared_remarks"</span>,<br>
-          &nbsp;&nbsp;<span class="keyword">text</span>: <span class="string">"We're thrilled to..."</span><br>
-          }
-        </div>
+<!-- SLIDE 6: RAG SYSTEM -->
+<div class="slide">
+  <div class="glow glow-purple" style="top:30%;left:10%"></div>
+  <h3 class="anim">RAG Q&amp;A System</h3>
+  <h2 class="anim anim-d1">Ask Questions, Get Cited Answers</h2>
+  <div class="flow anim anim-d2">
+    <div class="flow-step">User Query</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Query Expansion</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Hybrid Search<br><small style="color:#64748b">FAISS + BM25</small></div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">RRF Fusion</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Cross-Encoder<br><small style="color:#64748b">Re-ranking</small></div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Llama 3.2<br><small style="color:#64748b">Local LLM</small></div>
+  </div>
+  <div class="cards cards-2 anim anim-d3" style="margin-top:32px">
+    <div class="card">
+      <div class="card-title">Hybrid Retrieval</div>
+      <div class="card-body">
+        <ul class="bullets" style="margin-top:0">
+          <li><span class="bold">Dense</span>&mdash;sentence-transformer embeddings in FAISS</li>
+          <li><span class="bold">Sparse</span>&mdash;BM25 for exact keyword / ticker matching</li>
+          <li><span class="bold">RRF fusion</span>&mdash;combines both ranking lists</li>
+          <li><span class="bold">Cross-encoder</span>&mdash;ms-marco-MiniLM re-ranks for precision</li>
+        </ul>
       </div>
-      <div class="animate-in delay-4">
-        <h3 style="margin-bottom:16px;">Processing Steps</h3>
-        <div class="card" style="margin-bottom:12px;">
-          <h3>1. Boilerplate Removal</h3>
-          <p>Strips safe harbor disclaimers, copyright notices, legal text</p>
-        </div>
-        <div class="card" style="margin-bottom:12px;">
-          <h3>2. Speaker Detection</h3>
-          <p>6 regex patterns match formats like <code>Name -- Title</code>, <code>Name (Title):</code></p>
-        </div>
-        <div class="card" style="margin-bottom:12px;">
-          <h3>3. Role Classification</h3>
-          <p>Maps to CEO, CFO, Analyst, Operator, etc. using title keywords</p>
-        </div>
-        <div class="card" style="margin-bottom:12px;">
-          <h3>4. Section Detection</h3>
-          <p>Splits into <span class="tag tag-blue">Prepared Remarks</span> and <span class="tag tag-purple">Q&A</span></p>
-        </div>
-        <div class="card">
-          <h3>5. Sentence-Aware Chunking</h3>
-          <p>~400 tokens per chunk, 50-token overlap, respects sentence boundaries</p>
-        </div>
+    </div>
+    <div class="card">
+      <div class="card-title">User Features</div>
+      <div class="card-body">
+        <ul class="bullets" style="margin-top:0">
+          <li><span class="bold">Source citations</span> linking back to transcript chunks</li>
+          <li><span class="bold">Metadata filters</span>&mdash;section, speaker, role</li>
+          <li><span class="bold">Query expansion</span> for better recall</li>
+          <li><span class="bold">Multi-quarter</span> cross-transcript search</li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ═══════════ SLIDE 5: SENTIMENT ═══════════ -->
-<div class="slide" data-slide="4">
-  <div class="slide-inner">
-    <div class="animate-in delay-1 slide-label">NLP Analysis</div>
-    <h2 class="animate-in delay-2">Three-method <span class="gradient-text">sentiment analysis</span></h2>
-    <div class="card-grid grid-3 animate-in delay-3">
-      <div class="card">
-        <span class="card-icon">&#128218;</span>
-        <h3>Loughran-McDonald</h3>
-        <p style="margin-bottom:12px;">Finance-specific lexicon. Unlike general dictionaries, correctly handles financial language.</p>
-        <div class="tag tag-green">341 positive</div>
-        <div class="tag tag-red">951 negative</div>
-        <div class="tag tag-orange">219 uncertainty</div>
-        <div style="margin-top:16px;">
-          <div class="metric-bar">
-            <div class="metric-bar-label">
-              <span>Score Formula</span>
-            </div>
-          </div>
-          <div class="code-block" style="margin-top:8px; font-size:13px; padding:12px 16px;">
-            net = (pos - neg) / total
-          </div>
-        </div>
+<!-- SLIDE 7: EVALUATION -->
+<div class="slide">
+  <div class="glow glow-green" style="top:10%;right:20%"></div>
+  <h3 class="anim">Evaluation Results</h3>
+  <h2 class="anim anim-d1">Quantitative Performance</h2>
+  <div class="cols anim anim-d2">
+    <div>
+      <div style="font-size:14px;font-weight:700;color:#4f7df5;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:16px">Retrieval Quality</div>
+      <div class="bar-chart">
+        <div class="bar-row"><div class="bar-label">Recall@3</div><div class="bar-track"><div class="bar-fill bar-blue" style="width:86.9%">86.9%</div></div></div>
+        <div class="bar-row"><div class="bar-label">Recall@10</div><div class="bar-track"><div class="bar-fill bar-blue" style="width:95.8%">95.8%</div></div></div>
+        <div class="bar-row"><div class="bar-label">MRR</div><div class="bar-track"><div class="bar-fill bar-green" style="width:100%">100%</div></div></div>
+        <div class="bar-row"><div class="bar-label">Ticker Accuracy</div><div class="bar-track"><div class="bar-fill bar-purple" style="width:91.7%">91.7%</div></div></div>
+        <div class="bar-row"><div class="bar-label">Keyword Hit</div><div class="bar-track"><div class="bar-fill bar-purple" style="width:95.8%">95.8%</div></div></div>
       </div>
-      <div class="card">
-        <span class="card-icon">&#129302;</span>
-        <h3>VADER</h3>
-        <p style="margin-bottom:12px;">Rule-based model that handles punctuation, capitalization, degree modifiers, and negation.</p>
-        <div style="margin-top:8px;">
-          <div class="metric-bar">
-            <div class="metric-bar-label"><span>"Great!!!"</span><span style="color:var(--accent-green);">+0.72</span></div>
-            <div class="metric-bar-track"><div class="metric-bar-fill" style="width:86%; background:var(--gradient-4);"></div></div>
-          </div>
-          <div class="metric-bar">
-            <div class="metric-bar-label"><span>"Great"</span><span style="color:var(--accent-green);">+0.51</span></div>
-            <div class="metric-bar-track"><div class="metric-bar-fill" style="width:75%; background:var(--gradient-4);"></div></div>
-          </div>
-          <div class="metric-bar">
-            <div class="metric-bar-label"><span>"Not great"</span><span style="color:var(--accent-red);">-0.30</span></div>
-            <div class="metric-bar-track"><div class="metric-bar-fill" style="width:35%; background:var(--gradient-5);"></div></div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <span class="card-icon">&#129504;</span>
-        <h3>FinBERT</h3>
-        <p style="margin-bottom:12px;">Pre-trained BERT fine-tuned on financial text. Deep contextual understanding.</p>
-        <div class="tag tag-cyan">ProsusAI/finbert</div>
-        <div style="margin-top:16px;">
-          <div class="metric-bar">
-            <div class="metric-bar-label"><span>Positive</span><span style="color:var(--accent-green);">0.87</span></div>
-            <div class="metric-bar-track"><div class="metric-bar-fill" style="width:87%; background:var(--accent-green);"></div></div>
-          </div>
-          <div class="metric-bar">
-            <div class="metric-bar-label"><span>Neutral</span><span style="color:var(--text-muted);">0.10</span></div>
-            <div class="metric-bar-track"><div class="metric-bar-fill" style="width:10%; background:var(--text-muted);"></div></div>
-          </div>
-          <div class="metric-bar">
-            <div class="metric-bar-label"><span>Negative</span><span style="color:var(--accent-red);">0.03</span></div>
-            <div class="metric-bar-track"><div class="metric-bar-fill" style="width:3%; background:var(--accent-red);"></div></div>
-          </div>
-        </div>
+      <div style="font-size:14px;font-weight:700;color:#34d399;text-transform:uppercase;letter-spacing:1.5px;margin:24px 0 16px">Answer Quality</div>
+      <div class="bar-chart">
+        <div class="bar-row"><div class="bar-label">Citation Rate</div><div class="bar-track"><div class="bar-fill bar-green" style="width:83.3%">83.3%</div></div></div>
+        <div class="bar-row"><div class="bar-label">Keyword Coverage</div><div class="bar-track"><div class="bar-fill bar-green" style="width:83.3%">83.3%</div></div></div>
       </div>
     </div>
-    <div class="highlight-box animate-in delay-4" style="margin-top:24px;">
-      <p><strong>Derived features:</strong> Management vs. analyst sentiment &bull; Prepared vs. Q&A divergence &bull; Quarter-over-quarter momentum &bull; Speaker-level breakdown</p>
-    </div>
-  </div>
-</div>
-
-<!-- ═══════════ SLIDE 6: RISK ═══════════ -->
-<div class="slide" data-slide="5">
-  <div class="slide-inner">
-    <div class="animate-in delay-1 slide-label">NLP Analysis</div>
-    <h2 class="animate-in delay-2">Context-aware <span class="gradient-text-5">risk detection</span></h2>
-    <div class="two-col animate-in delay-3">
-      <div>
-        <p class="body-text" style="margin-bottom:20px;">
-          255 keywords across 10 financial risk categories, with negation detection and severity scoring.
-        </p>
-        <div class="card-grid grid-2" style="margin-top:0;">
-          <div class="card" style="padding:16px 20px;">
-            <h3 style="font-size:15px;">&#128200; Demand Risk</h3>
-            <p style="font-size:13px;">"declining demand", "customer churn"</p>
-          </div>
-          <div class="card" style="padding:16px 20px;">
-            <h3 style="font-size:15px;">&#128178; Margin Risk</h3>
-            <p style="font-size:13px;">"margin pressure", "cost inflation"</p>
-          </div>
-          <div class="card" style="padding:16px 20px;">
-            <h3 style="font-size:15px;">&#128666; Supply Chain</h3>
-            <p style="font-size:13px;">"chip shortage", "logistics delays"</p>
-          </div>
-          <div class="card" style="padding:16px 20px;">
-            <h3 style="font-size:15px;">&#9878; Regulatory</h3>
-            <p style="font-size:13px;">"antitrust", "compliance costs"</p>
-          </div>
-          <div class="card" style="padding:16px 20px;">
-            <h3 style="font-size:15px;">&#9876; Competition</h3>
-            <p style="font-size:13px;">"market share loss", "price war"</p>
-          </div>
-          <div class="card" style="padding:16px 20px;">
-            <h3 style="font-size:15px;">&#127758; FX / Macro</h3>
-            <p style="font-size:13px;">"currency headwinds", "inflation"</p>
-          </div>
-          <div class="card" style="padding:16px 20px;">
-            <h3 style="font-size:15px;">&#128176; Liquidity</h3>
-            <p style="font-size:13px;">"cash burn", "debt maturity"</p>
-          </div>
-          <div class="card" style="padding:16px 20px;">
-            <h3 style="font-size:15px;">&#128187; Tech / Execution</h3>
-            <p style="font-size:13px;">"product delays", "technical debt"</p>
-          </div>
-          <div class="card" style="padding:16px 20px;">
-            <h3 style="font-size:15px;">&#128101; Labor</h3>
-            <p style="font-size:13px;">"talent shortage", "attrition"</p>
-          </div>
-          <div class="card" style="padding:16px 20px;">
-            <h3 style="font-size:15px;">&#127760; Geopolitical</h3>
-            <p style="font-size:13px;">"tariff", "sanctions", "trade war"</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <h3>Context-Aware Processing</h3>
-        <div class="code-block" style="margin-top:12px; font-size:13px;">
-          <span class="comment">// Negation detection (3-word window)</span><br>
-          <span class="string">"We see <span style="color:var(--accent-green);">no</span> margin pressure"</span><br>
-          &nbsp;&nbsp;&#10132; negated = <span class="keyword">true</span> &#10132; excluded<br><br>
-          <span class="comment">// Severity scoring (5-word window)</span><br>
-          <span class="string">"<span style="color:var(--accent-red);">significant</span> supply constraints"</span><br>
-          &nbsp;&nbsp;&#10132; severity = <span class="keyword">"high"</span> (weight: 3)<br><br>
-          <span class="string">"<span style="color:var(--accent-orange);">minor</span> supply constraints"</span><br>
-          &nbsp;&nbsp;&#10132; severity = <span class="keyword">"low"</span> (weight: 1)
-        </div>
-        <div class="highlight-box" style="margin-top:20px;">
-          <p><strong>Output per chunk:</strong></p>
-          <p style="margin-top:8px;">
-            <span class="tag tag-red">risk_categories</span>
-            <span class="tag tag-orange">risk_count</span>
-            <span class="tag tag-purple">risk_intensity</span>
-            <span class="tag tag-blue">risk_details</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ═══════════ SLIDE 7: RAG ═══════════ -->
-<div class="slide" data-slide="6">
-  <div class="slide-inner">
-    <div class="animate-in delay-1 slide-label">Retrieval-Augmented Generation</div>
-    <h2 class="animate-in delay-2">Hybrid search + <span class="gradient-text-3">local LLM</span></h2>
-    <div class="two-col-wide animate-in delay-3">
-      <div>
-        <div class="pipeline" style="flex-direction:column; align-items:stretch; margin-top:0;">
-          <div class="pipeline-step" style="text-align:left; display:flex; gap:16px; align-items:center;">
-            <div class="step-icon" style="margin:0;">&#128269;</div>
-            <div>
-              <h4 style="font-size:16px;">1. Dense Search (FAISS)</h4>
-              <p style="font-size:13px;">all-MiniLM-L6-v2 embeddings, 384-dim vectors, cosine similarity<br>
-              <em style="color:var(--accent-cyan);">"revenue growth" matches "top-line expansion"</em></p>
-            </div>
-          </div>
-          <div style="text-align:center; color:var(--accent-blue); font-size:16px; padding:4px;">+</div>
-          <div class="pipeline-step" style="text-align:left; display:flex; gap:16px; align-items:center;">
-            <div class="step-icon" style="margin:0;">&#128221;</div>
-            <div>
-              <h4 style="font-size:16px;">2. Sparse Search (BM25)</h4>
-              <p style="font-size:13px;">Token-level keyword matching with TF-IDF weighting<br>
-              <em style="color:var(--accent-cyan);">Exact match for "EBITDA", "EPS", specific figures</em></p>
-            </div>
-          </div>
-          <div style="text-align:center; color:var(--accent-blue); font-size:16px; padding:4px;">&#8595;</div>
-          <div class="pipeline-step" style="text-align:left; display:flex; gap:16px; align-items:center;">
-            <div class="step-icon" style="margin:0;">&#128256;</div>
-            <div>
-              <h4 style="font-size:16px;">3. Reciprocal Rank Fusion</h4>
-              <p style="font-size:13px;">
-                score = 0.6/(k+rank<sub>dense</sub>) + 0.4/(k+rank<sub>sparse</sub>)<br>
-                <em style="color:var(--accent-cyan);">Best of both worlds — semantic + exact</em></p>
-            </div>
-          </div>
-          <div style="text-align:center; color:var(--accent-blue); font-size:16px; padding:4px;">&#8595;</div>
-          <div class="pipeline-step" style="text-align:left; display:flex; gap:16px; align-items:center; border-color:rgba(139,92,246,0.3);">
-            <div class="step-icon" style="margin:0;">&#129302;</div>
-            <div>
-              <h4 style="font-size:16px;">4. Llama 3.2 (Local via Ollama)</h4>
-              <p style="font-size:13px;">Free, no API key. Financial analyst system prompt.<br>
-              <em style="color:var(--accent-cyan);">Generates cited answers from retrieved context</em></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <h3 style="margin-bottom:12px;">Example Q&A</h3>
-        <div class="card" style="background:#0d1117; border-color:rgba(79,125,245,0.2);">
-          <p style="color:var(--accent-blue); font-size:14px; font-weight:600; margin-bottom:8px;">User</p>
-          <p style="font-size:15px; margin-bottom:16px;">"What was Apple's revenue guidance for Q3 2024?"</p>
-          <p style="color:var(--accent-green); font-size:14px; font-weight:600; margin-bottom:8px;">Assistant</p>
-          <p style="font-size:14px; line-height:1.7;">According to <span style="color:var(--accent-cyan);">[1]</span>, CEO Tim Cook stated: "Future guidance projects low single-digit revenue growth and double-digit growth in Services and iPad for Q3."</p>
-          <div style="margin-top:12px; padding-top:12px; border-top:1px solid rgba(255,255,255,0.06);">
-            <p style="font-size:12px; color:var(--text-muted);">
-              <span style="color:var(--accent-cyan);">[1]</span> AAPL 2024Q2 | Tim Cook (CEO) | prepared_remarks | score: 0.0098
-            </p>
-          </div>
-        </div>
-        <div class="highlight-box" style="margin-top:16px;">
-          <p><strong>Key features:</strong></p>
-          <p style="font-size:14px; margin-top:4px;">
-            &#9679; Filter by company / quarter<br>
-            &#9679; Source citations with relevance scores<br>
-            &#9679; Conversation history support<br>
-            &#9679; Metadata filtering (role, section)
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ═══════════ SLIDE 8: FINANCE ═══════════ -->
-<div class="slide" data-slide="7">
-  <div class="slide-inner">
-    <div class="animate-in delay-1 slide-label">Finance Analysis</div>
-    <h2 class="animate-in delay-2">NLP features vs <span class="gradient-text-4">market returns</span></h2>
-    <div class="two-col animate-in delay-3">
-      <div>
-        <h3 style="margin-bottom:16px;">Feature Matrix</h3>
-        <p class="body-text" style="margin-bottom:16px;">
-          26 features per company-quarter, linking NLP signals to post-earnings stock returns.
-        </p>
-        <div class="card" style="padding:20px; margin-bottom:16px;">
-          <h3 style="font-size:16px; margin-bottom:8px;">NLP Features</h3>
-          <div>
-            <span class="tag tag-blue">LM Net Score</span>
-            <span class="tag tag-blue">VADER Compound</span>
-            <span class="tag tag-purple">Mgmt Sentiment</span>
-            <span class="tag tag-purple">Analyst Sentiment</span>
-            <span class="tag tag-cyan">Sentiment Divergence</span>
-            <span class="tag tag-cyan">Sentiment Momentum</span>
-            <span class="tag tag-orange">Risk Count</span>
-            <span class="tag tag-orange">Risk Intensity</span>
-            <span class="tag tag-orange">Risk Delta</span>
-          </div>
-        </div>
-        <div class="card" style="padding:20px;">
-          <h3 style="font-size:16px; margin-bottom:8px;">Market Features</h3>
-          <div>
-            <span class="tag tag-green">1d / 3d / 5d Returns</span>
-            <span class="tag tag-green">Abnormal Returns vs SPY</span>
-            <span class="tag tag-green">Abnormal Volume</span>
-          </div>
-        </div>
-      </div>
-      <div>
-        <h3 style="margin-bottom:16px;">Results</h3>
-        <table class="styled-table">
-          <thead>
-            <tr><th>Analysis</th><th>Result</th></tr>
-          </thead>
+    <div>
+      <div style="font-size:14px;font-weight:700;color:#f97316;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:16px">ML Stock Direction</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Model</th><th>Accuracy</th><th>vs Baseline</th></tr></thead>
           <tbody>
-            <tr>
-              <td><strong>Event Study (1d CAR)</strong></td>
-              <td>Mean: +0.05%, p=0.39<br><span style="color:var(--text-muted);">Not significant</span></td>
-            </tr>
-            <tr>
-              <td><strong>OLS Regression</strong></td>
-              <td>R&sup2; = 0.011, n=1,000<br><span style="color:var(--text-muted);">F-stat: 1.19, p=0.30</span></td>
-            </tr>
-            <tr>
-              <td><strong>Lasso CV R&sup2;</strong></td>
-              <td>-0.006 &plusmn; 0.005</td>
-            </tr>
-            <tr>
-              <td><strong>Ridge CV R&sup2;</strong></td>
-              <td>-0.015 &plusmn; 0.025</td>
-            </tr>
-            <tr>
-              <td><strong>Random Forest CV R&sup2;</strong></td>
-              <td>-0.027 &plusmn; 0.009</td>
-            </tr>
-            <tr>
-              <td><strong>Gradient Boosting CV R&sup2;</strong></td>
-              <td>-0.125 &plusmn; 0.045</td>
-            </tr>
+            <tr><td>Baseline (random)</td><td style="color:#64748b">50.9%</td><td>&mdash;</td></tr>
+            <tr><td style="color:#e2e8f0;font-weight:600">Logistic Regression</td><td style="color:#34d399;font-weight:700">53.1%</td><td style="color:#34d399">+2.2%</td></tr>
+            <tr><td style="color:#e2e8f0;font-weight:600">Random Forest</td><td style="color:#34d399;font-weight:700">52.5%</td><td style="color:#34d399">+1.6%</td></tr>
+            <tr><td style="color:#e2e8f0;font-weight:600">Gradient Boosting</td><td style="color:#34d399;font-weight:700">51.9%</td><td style="color:#34d399">+1.0%</td></tr>
           </tbody>
         </table>
-        <div class="highlight-box" style="margin-top:16px;">
-          <p><strong>Interpretation:</strong> Consistent with semi-strong efficient markets. Earnings call sentiment alone does not systematically predict short-term abnormal returns — a valid academic finding.</p>
+      </div>
+      <div class="highlight-box" style="margin-top:20px">
+        <div style="font-size:14px;color:#c6cdd5;line-height:1.6">
+          <span class="bold">Why ~53%?</span> Consistent with academic findings&mdash;NLP features alone
+          provide a small but meaningful edge. Portfolio backtest shows a
+          <span class="accent-green">+0.72% long-short spread</span> per trade,
+          compounding significantly over hundreds of events.
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ═══════════ SLIDE 9: DASHBOARD ═══════════ -->
-<div class="slide" data-slide="8">
-  <div class="slide-inner">
-    <div class="animate-in delay-1 slide-label">Interactive Dashboard</div>
-    <h2 class="animate-in delay-2">7-page <span class="gradient-text-2">Streamlit</span> dashboard</h2>
-    <div class="card-grid grid-3 animate-in delay-3" style="margin-top:24px;">
-      <div class="card">
-        <span class="card-icon">&#127970;</span>
-        <h3>Company Overview</h3>
-        <p>Select any company. View chunks, speakers, quarters, key metrics at a glance.</p>
-      </div>
-      <div class="card">
-        <span class="card-icon">&#128200;</span>
-        <h3>Sentiment Trends</h3>
-        <p>Line charts over time, heatmaps, prepared vs Q&A comparison, role breakdowns.</p>
-      </div>
-      <div class="card">
-        <span class="card-icon">&#9888;&#65039;</span>
-        <h3>Risk Monitoring</h3>
-        <p>10-category heatmap, trend lines, drill-down into specific calls with text excerpts.</p>
-      </div>
-      <div class="card">
-        <span class="card-icon">&#128196;</span>
-        <h3>Transcript Explorer</h3>
-        <p>Browse chunks with sentiment highlighting. Search, filter by section and speaker.</p>
-      </div>
-      <div class="card">
-        <span class="card-icon">&#128172;</span>
-        <h3>RAG Q&A</h3>
-        <p>Chat interface. Ask anything about earnings calls. Local LLM, cited sources, free.</p>
-      </div>
-      <div class="card">
-        <span class="card-icon">&#128176;</span>
-        <h3>Market Reactions</h3>
-        <p>Returns, abnormal returns, scatter plots, regression table, ML comparison, portfolio sorts.</p>
+<!-- SLIDE 8: DASHBOARD FEATURES -->
+<div class="slide">
+  <div class="glow glow-blue" style="top:50%;left:20%"></div>
+  <h3 class="anim">Dashboard Features</h3>
+  <h2 class="anim anim-d1">Multi-Quarter Interactive Analysis</h2>
+  <div class="cards cards-2 anim anim-d2" style="margin-top:24px">
+    <div class="card">
+      <div class="card-title" style="color:#4f7df5">Sentiment Page</div>
+      <div class="card-body">
+        <ul class="bullets" style="margin-top:0">
+          <li>Auto-generated Key Findings summary</li>
+          <li>Management vs Analyst sentiment gap</li>
+          <li>Prepared &rarr; Q&amp;A credibility waterfall</li>
+          <li>Cross-quarter momentum tracking</li>
+        </ul>
       </div>
     </div>
-    <div class="card animate-in delay-4" style="margin-top:20px; border-color:rgba(139,92,246,0.3); display:flex; align-items:center; gap:24px;">
-      <span style="font-size:48px;">&#128228;</span>
-      <div>
-        <h3>Upload & Analyze (NEW)</h3>
-        <p>Upload any earnings call PDF. Auto-detects ticker and quarter. Instant sentiment, risk detection, benchmarking against 1,108 historical calls, and Q&A — all in one page.</p>
+    <div class="card">
+      <div class="card-title" style="color:#ef4444">Risk Page</div>
+      <div class="card-body">
+        <ul class="bullets" style="margin-top:0">
+          <li>Keyword vs Semantic detection breakdown</li>
+          <li>Management vs Analyst risk exposure</li>
+          <li>RAG explainability with matched anchors</li>
+          <li>Risk category heatmap across quarters</li>
+        </ul>
       </div>
     </div>
-  </div>
-</div>
-
-<!-- ═══════════ SLIDE 10: UPLOAD FEATURE ═══════════ -->
-<div class="slide" data-slide="9">
-  <div class="slide-inner">
-    <div class="animate-in delay-1 slide-label">Live Feature</div>
-    <h2 class="animate-in delay-2">Upload a PDF, get <span class="gradient-text-3">instant analytics</span></h2>
-    <div class="pipeline animate-in delay-3">
-      <div class="pipeline-step">
-        <div class="step-icon">&#128196;</div>
-        <h4>Upload PDF</h4>
-        <p>PDF or TXT file</p>
-      </div>
-      <div class="pipeline-arrow">&#10132;</div>
-      <div class="pipeline-step">
-        <div class="step-icon">&#129520;</div>
-        <h4>Auto-Detect</h4>
-        <p>Ticker + Quarter</p>
-      </div>
-      <div class="pipeline-arrow">&#10132;</div>
-      <div class="pipeline-step">
-        <div class="step-icon">&#9986;</div>
-        <h4>Parse</h4>
-        <p>Chunk + metadata</p>
-      </div>
-      <div class="pipeline-arrow">&#10132;</div>
-      <div class="pipeline-step">
-        <div class="step-icon">&#128172;</div>
-        <h4>Analyze</h4>
-        <p>Sentiment + Risk</p>
-      </div>
-      <div class="pipeline-arrow">&#10132;</div>
-      <div class="pipeline-step">
-        <div class="step-icon">&#128202;</div>
-        <h4>Benchmark</h4>
-        <p>vs 1,108 calls</p>
+    <div class="card">
+      <div class="card-title" style="color:#34d399">Benchmark Page</div>
+      <div class="card-body">
+        <ul class="bullets" style="margin-top:0">
+          <li>ML direction prediction (UP / DOWN)</li>
+          <li>Percentile vs 1,100+ historical calls</li>
+          <li>Portfolio sort with long-short spread</li>
+          <li>Plain-English interpretations</li>
+        </ul>
       </div>
     </div>
-    <div class="card-grid grid-5 animate-in delay-4" style="margin-top:28px;">
-      <div class="stat-card" style="border-top:3px solid var(--accent-blue);">
-        <div style="font-size:24px; margin-bottom:4px;">&#128200;</div>
-        <div class="stat-label" style="font-size:13px;">Sentiment</div>
-        <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Distribution, by speaker, by section</p>
-      </div>
-      <div class="stat-card" style="border-top:3px solid var(--accent-red);">
-        <div style="font-size:24px; margin-bottom:4px;">&#9888;</div>
-        <div class="stat-label" style="font-size:13px;">Risk</div>
-        <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Categories, severity, excerpts</p>
-      </div>
-      <div class="stat-card" style="border-top:3px solid var(--accent-green);">
-        <div style="font-size:24px; margin-bottom:4px;">&#128201;</div>
-        <div class="stat-label" style="font-size:13px;">Benchmark</div>
-        <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Percentile rank, sector comparison</p>
-      </div>
-      <div class="stat-card" style="border-top:3px solid var(--accent-purple);">
-        <div style="font-size:24px; margin-bottom:4px;">&#128196;</div>
-        <div class="stat-label" style="font-size:13px;">Transcript</div>
-        <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Parsed, searchable, color-coded</p>
-      </div>
-      <div class="stat-card" style="border-top:3px solid var(--accent-cyan);">
-        <div style="font-size:24px; margin-bottom:4px;">&#128172;</div>
-        <div class="stat-label" style="font-size:13px;">Q&A</div>
-        <p style="font-size:12px; color:var(--text-muted); margin-top:4px;">Chat with the transcript</p>
-      </div>
-    </div>
-    <div class="two-col animate-in delay-5" style="margin-top:28px;">
-      <div class="highlight-box">
-        <p><strong>Auto-Detection:</strong> Scans transcript text and filename for company names, exchange tags (NASDAQ: AAPL), and quarter patterns (Q3 2024, "third quarter"). Pre-fills fields for user confirmation.</p>
-      </div>
-      <div class="highlight-box">
-        <p><strong>Benchmarking:</strong> "This call's sentiment is at the <strong>73rd percentile</strong> overall, and <strong>81st percentile</strong> within the Technology sector (out of 412 calls)."</p>
+    <div class="card">
+      <div class="card-title" style="color:#8b5cf6">Q&amp;A Page</div>
+      <div class="card-body">
+        <ul class="bullets" style="margin-top:0">
+          <li>Chat interface with suggested questions</li>
+          <li>Source citations with relevance scores</li>
+          <li>Section / role / speaker filtering</li>
+          <li>Cross-quarter transcript search</li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ═══════════ SLIDE 11: TECH STACK ═══════════ -->
-<div class="slide" data-slide="10">
-  <div class="slide-inner">
-    <div class="animate-in delay-1 slide-label">Technology</div>
-    <h2 class="animate-in delay-2">Built with <span class="gradient-text-4">modern tools</span></h2>
-    <div class="card-grid grid-3 animate-in delay-3">
-      <div class="card">
-        <h3 style="color:var(--accent-blue);">NLP & Embeddings</h3>
-        <div style="margin-top:12px;">
-          <div class="tag tag-blue">sentence-transformers</div>
-          <div class="tag tag-blue">all-MiniLM-L6-v2</div>
-          <div class="tag tag-blue">Loughran-McDonald</div>
-          <div class="tag tag-blue">VADER</div>
-          <div class="tag tag-blue">FinBERT (ProsusAI)</div>
-          <div class="tag tag-blue">HuggingFace Transformers</div>
-        </div>
-      </div>
-      <div class="card">
-        <h3 style="color:var(--accent-purple);">Retrieval & LLM</h3>
-        <div style="margin-top:12px;">
-          <div class="tag tag-purple">FAISS (IndexFlatIP)</div>
-          <div class="tag tag-purple">BM25Okapi</div>
-          <div class="tag tag-purple">Reciprocal Rank Fusion</div>
-          <div class="tag tag-purple">Ollama</div>
-          <div class="tag tag-purple">Llama 3.2 (3B)</div>
-          <div class="tag tag-purple">100% Local &amp; Free</div>
-        </div>
-      </div>
-      <div class="card">
-        <h3 style="color:var(--accent-green);">Data & Finance</h3>
-        <div style="margin-top:12px;">
-          <div class="tag tag-green">pandas + NumPy</div>
-          <div class="tag tag-green">Apache Parquet</div>
-          <div class="tag tag-green">yfinance</div>
-          <div class="tag tag-green">statsmodels (OLS)</div>
-          <div class="tag tag-green">scikit-learn</div>
-          <div class="tag tag-green">scipy</div>
-        </div>
-      </div>
-      <div class="card">
-        <h3 style="color:var(--accent-orange);">Frontend</h3>
-        <div style="margin-top:12px;">
-          <div class="tag tag-orange">Streamlit</div>
-          <div class="tag tag-orange">Plotly</div>
-          <div class="tag tag-orange">pdfplumber</div>
-          <div class="tag tag-orange">7 interactive pages</div>
-        </div>
-      </div>
-      <div class="card">
-        <h3 style="color:var(--accent-cyan);">ML Models</h3>
-        <div style="margin-top:12px;">
-          <div class="tag tag-cyan">Lasso Regression</div>
-          <div class="tag tag-cyan">Ridge Regression</div>
-          <div class="tag tag-cyan">Random Forest</div>
-          <div class="tag tag-cyan">Gradient Boosting</div>
-          <div class="tag tag-cyan">Cross-Validation</div>
-        </div>
-      </div>
-      <div class="card">
-        <h3 style="color:var(--accent-red);">Risk Engine</h3>
-        <div style="margin-top:12px;">
-          <div class="tag tag-red">255 keywords</div>
-          <div class="tag tag-red">10 categories</div>
-          <div class="tag tag-red">Negation detection</div>
-          <div class="tag tag-red">Severity scoring</div>
-          <div class="tag tag-red">Context-aware</div>
-        </div>
-      </div>
+<!-- SLIDE 9: TECH STACK -->
+<div class="slide">
+  <div class="glow glow-purple" style="bottom:20%;left:40%"></div>
+  <h3 class="anim">Technology Stack</h3>
+  <h2 class="anim anim-d1">Built Entirely Local&mdash;No API Keys Required</h2>
+  <div class="cards cards-4 anim anim-d2" style="margin-top:24px">
+    <div class="card" style="text-align:center">
+      <div class="card-title">NLP Models</div>
+      <div class="card-body" style="font-size:13px">FinBERT<br>Loughran-McDonald<br>VADER<br>all-MiniLM-L6-v2</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div class="card-title">Search &amp; Retrieval</div>
+      <div class="card-body" style="font-size:13px">FAISS (Dense)<br>BM25 (Sparse)<br>Cross-encoder<br>RRF Fusion</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div class="card-title">LLM</div>
+      <div class="card-body" style="font-size:13px">Llama 3.2 via Ollama<br>100% local inference<br>No API costs<br>Full data privacy</div>
+    </div>
+    <div class="card" style="text-align:center">
+      <div class="card-title">ML &amp; Viz</div>
+      <div class="card-body" style="font-size:13px">scikit-learn<br>Plotly<br>Streamlit<br>pandas / numpy</div>
+    </div>
+  </div>
+  <div class="highlight-box green anim anim-d3" style="margin-top:28px">
+    <div style="font-size:15px;color:#c6cdd5;line-height:1.6;text-align:center">
+      <span class="bold">Privacy-first design:</span> All models run locally.
+      No transcript data is sent to external APIs. Suitable for confidential pre-release earnings analysis.
     </div>
   </div>
 </div>
 
-<!-- ═══════════ SLIDE 12: CONCLUSION ═══════════ -->
-<div class="slide" data-slide="11">
-  <div class="slide-inner" style="text-align:center;">
-    <div class="animate-in delay-1 slide-label">Summary</div>
-    <h2 class="animate-in delay-2" style="font-size:52px;">
-      From raw transcripts to<br><span class="gradient-text">actionable insights</span>
-    </h2>
-    <div class="card-grid grid-3 animate-in delay-3" style="max-width:900px; margin:32px auto 0;">
-      <div class="stat-card">
-        <div class="stat-value" style="font-size:36px;">30,235</div>
-        <div class="stat-label">Chunks Analyzed</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value" style="font-size:36px; background:var(--gradient-3); -webkit-background-clip:text;">3</div>
-        <div class="stat-label">Sentiment Methods</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value" style="font-size:36px; background:var(--gradient-5); -webkit-background-clip:text;">10</div>
-        <div class="stat-label">Risk Categories</div>
-      </div>
-    </div>
-    <div class="animate-in delay-4" style="margin-top:36px;">
-      <div class="card" style="max-width:700px; margin:0 auto; text-align:left;">
-        <h3 style="margin-bottom:12px;">Key Takeaways</h3>
-        <p style="margin-bottom:8px;">&#9679; &nbsp;Built an end-to-end NLP + RAG + Finance analytics pipeline</p>
-        <p style="margin-bottom:8px;">&#9679; &nbsp;Hybrid retrieval (FAISS + BM25) with local LLM for free Q&A</p>
-        <p style="margin-bottom:8px;">&#9679; &nbsp;NLP sentiment has limited standalone predictive power for returns — consistent with efficient market hypothesis</p>
-        <p style="margin-bottom:8px;">&#9679; &nbsp;PDF upload with auto-detection and real-time benchmarking</p>
-        <p>&#9679; &nbsp;Fully interactive 7-page dashboard</p>
-      </div>
-    </div>
-    <p class="animate-in delay-5" style="margin-top:40px; font-size:18px; color:var(--text-muted);">
-      Thank you
-    </p>
+<!-- SLIDE 10: CONCLUSION -->
+<div class="slide">
+  <div class="glow glow-blue"></div>
+  <div class="glow glow-purple" style="top:60%;left:50%"></div>
+  <div class="glow glow-green" style="top:20%;left:70%"></div>
+  <h3 class="anim">Summary</h3>
+  <h1 class="anim anim-d1" style="font-size:44px">From Raw Transcripts<br>to Actionable Intelligence</h1>
+  <div class="metrics anim anim-d2" style="margin-top:36px">
+    <div class="metric"><div class="metric-val accent">86.9%</div><div class="metric-label">Recall@3</div></div>
+    <div class="metric"><div class="metric-val accent-green">100%</div><div class="metric-label">MRR</div></div>
+    <div class="metric"><div class="metric-val accent-purple">53.1%</div><div class="metric-label">Direction Acc.</div></div>
+    <div class="metric"><div class="metric-val accent-orange">10</div><div class="metric-label">Risk Categories</div></div>
+    <div class="metric"><div class="metric-val" style="color:#ef4444">30K+</div><div class="metric-label">Indexed Chunks</div></div>
   </div>
+  <div style="margin-top:40px" class="anim anim-d3">
+    <ul class="bullets" style="max-width:700px">
+      <li>Three sentiment models with research-backed signal extraction</li>
+      <li>Two-layer risk detection with semantic explainability via RAG</li>
+      <li>Hybrid search achieves near-perfect retrieval quality</li>
+      <li>ML models provide a real predictive edge consistent with academic literature</li>
+      <li>Fully local, privacy-preserving, and interactive</li>
+    </ul>
+  </div>
+  <p class="anim anim-d4" style="margin-top:36px;font-size:16px;color:#4f7df5;font-weight:600">Thank you&mdash;Questions?</p>
 </div>
 
-</div><!-- /deck -->
+</div>
 
-<!-- ── Navigation ── -->
+<!-- Navigation -->
 <div class="nav">
-  <button class="nav-btn" id="prevBtn" onclick="navigate(-1)">&#8592;</button>
-  <div class="nav-dots" id="navDots"></div>
-  <span class="slide-counter" id="slideCounter">1 / 12</span>
-  <button class="nav-btn" id="nextBtn" onclick="navigate(1)">&#8594;</button>
+  <button onclick="prev()" title="Previous">&larr;</button>
+  <button onclick="next()" title="Next">&rarr;</button>
 </div>
 
 <script>
-let current = 0;
-const slides = document.querySelectorAll('.slide');
-const total = slides.length;
-const dotsContainer = document.getElementById('navDots');
-const counter = document.getElementById('slideCounter');
-
-// Create dots
-for (let i = 0; i < total; i++) {
-  const dot = document.createElement('div');
-  dot.className = 'nav-dot' + (i === 0 ? ' active' : '');
-  dot.onclick = () => goTo(i);
-  dotsContainer.appendChild(dot);
+const slides=document.querySelectorAll('.slide');
+let cur=0;
+function go(n){
+  if(n<0||n>=slides.length)return;
+  slides[cur].classList.remove('active');
+  cur=n;
+  slides[cur].classList.add('active');
+  document.getElementById('progress').style.width=((cur/(slides.length-1))*100)+'%';
+  document.getElementById('counter').textContent=(cur+1)+' / '+slides.length;
 }
-
-function goTo(n) {
-  slides[current].classList.remove('active');
-  dotsContainer.children[current].classList.remove('active');
-  current = Math.max(0, Math.min(n, total - 1));
-  slides[current].classList.add('active');
-  dotsContainer.children[current].classList.add('active');
-  counter.textContent = `${current + 1} / ${total}`;
-}
-
-function navigate(dir) {
-  goTo(current + dir);
-}
-
-// Keyboard navigation
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'Enter') {
-    e.preventDefault();
-    navigate(1);
-  } else if (e.key === 'ArrowLeft' || e.key === 'Backspace') {
-    e.preventDefault();
-    navigate(-1);
-  } else if (e.key === 'Home') {
-    goTo(0);
-  } else if (e.key === 'End') {
-    goTo(total - 1);
-  }
+function next(){go(cur+1)}
+function prev(){go(cur-1)}
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key===' '){e.preventDefault();next()}
+  else if(e.key==='ArrowLeft'){e.preventDefault();prev()}
+  else if(e.key==='Home')go(0);
+  else if(e.key==='End')go(slides.length-1);
 });
-
-// Touch/swipe support
-let touchStartX = 0;
-document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
-document.addEventListener('touchend', (e) => {
-  const diff = touchStartX - e.changedTouches[0].clientX;
-  if (Math.abs(diff) > 50) navigate(diff > 0 ? 1 : -1);
-});
+let tx=0;
+document.addEventListener('touchstart',e=>{tx=e.touches[0].clientX});
+document.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx;if(dx<-50)next();else if(dx>50)prev()});
+go(0);
 </script>
 
 </body>

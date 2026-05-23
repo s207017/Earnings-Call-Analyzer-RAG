@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --bg-dark: #0a0a0f;
-    --bg-card: #12121a;
-    --bg-sidebar: #0e0e16;
+    --bg-dark: #0f1117;
+    --bg-card: #181825;
+    --bg-sidebar: #11111b;
     --accent-blue: #4f7df5;
     --accent-purple: #8b5cf6;
     --accent-cyan: #22d3ee;
@@ -280,22 +280,51 @@ blockquote {
     border-radius: 12px !important;
 }
 
+/* ── Sidebar navigation styling ── */
 [data-testid="stSidebarNav"] a {
     color: var(--text-secondary) !important;
     font-weight: 500 !important;
     border-radius: 8px !important;
-    transition: all 0.2s !important;
+    transition: all 0.2s ease !important;
+    padding: 8px 12px !important;
+    margin: 2px 8px !important;
+    font-size: 14px !important;
 }
 
 [data-testid="stSidebarNav"] a:hover {
     background: rgba(79, 125, 245, 0.1) !important;
     color: var(--text-primary) !important;
+    transform: translateX(2px);
 }
 
 [data-testid="stSidebarNav"] a[aria-selected="true"] {
     background: linear-gradient(135deg, rgba(79,125,245,0.15), rgba(139,92,246,0.15)) !important;
     color: var(--text-primary) !important;
     font-weight: 700 !important;
+    border-left: 3px solid var(--accent-blue) !important;
+}
+
+/* Rename "app" to "Home" in sidebar nav */
+[data-testid="stSidebarNav"] a[href="/"] span {
+    font-size: 0 !important;
+}
+[data-testid="stSidebarNav"] a[href="/"]::after {
+    content: "🏠  Home";
+    font-size: 14px !important;
+    color: inherit;
+}
+
+/* Sidebar branding */
+[data-testid="stSidebarNav"]::before {
+    content: "Earnings Call Analyzer";
+    display: block;
+    padding: 16px 20px 12px;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--text-primary);
+    letter-spacing: -0.3px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    margin-bottom: 8px;
 }
 
 [data-testid="stHorizontalBlock"] {

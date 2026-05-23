@@ -105,6 +105,24 @@ class FinanceAnalyzer:
                                 all_cats.extend(cats)
                         feat["num_risk_categories"] = len(set(all_cats))
 
+            # Text features (readability, FLS, specificity)
+            try:
+                from src.agents.text_features import extract_call_features
+                chunk_texts = group["text"].tolist() if "text" in group.columns else []
+                if chunk_texts:
+                    text_feats = extract_call_features(chunk_texts)
+                    feat.update(text_feats)
+            except Exception:
+                pass
+
+            # Q&A dynamics features
+            try:
+                from src.agents.qa_features import qa_dynamics_features
+                qa_feats = qa_dynamics_features(group)
+                feat.update(qa_feats)
+            except Exception:
+                pass
+
             features.append(feat)
 
         feat_df = pd.DataFrame(features)
@@ -118,6 +136,38 @@ class FinanceAnalyzer:
         # Risk delta
         if "total_risk_count" in feat_df.columns:
             feat_df["risk_delta"] = feat_df.groupby("ticker")["total_risk_count"].diff()
+
+        # ── Research-backed engineered features ──
+        # Q&A-weighted sentiment (Price et al. 2012: Q&A more informative)
+        if "qa_sentiment" in feat_df.columns and "prepared_sentiment" in feat_df.columns:
+            feat_df["qa_weighted_sentiment"] = (
+                feat_df["qa_sentiment"].fillna(0) * 0.65
+                + feat_df["prepared_sentiment"].fillna(0) * 0.35
+            )
+
+        # Negative emphasis (LM 2011: negative tone more informative)
+        if "mean_lm_negative_score" in feat_df.columns:
+            feat_df["negative_emphasis"] = feat_df["mean_lm_negative_score"] * 1.5
+        if "mean_lm_negative_score" in feat_df.columns and "mean_lm_positive_score" in feat_df.columns:
+            feat_df["neg_pos_ratio"] = (
+                feat_df["mean_lm_negative_score"] / (feat_df["mean_lm_positive_score"] + 1e-8)
+            )
+
+        # Uncertainty-adjusted sentiment
+        if "mean_lm_net_score" in feat_df.columns and "mean_lm_uncertainty_score" in feat_df.columns:
+            feat_df["uncertainty_adj_sentiment"] = (
+                feat_df["mean_lm_net_score"] - feat_df["mean_lm_uncertainty_score"] * 0.5
+            )
+
+        # Analyst-management divergence (Brockman et al. 2015)
+        if "mgmt_sentiment" in feat_df.columns and "analyst_sentiment" in feat_df.columns:
+            feat_df["mgmt_analyst_divergence"] = feat_df["mgmt_sentiment"] - feat_df["analyst_sentiment"]
+
+        # Risk-sentiment interaction
+        if "mean_lm_net_score" in feat_df.columns and "total_risk_count" in feat_df.columns:
+            feat_df["risk_sentiment_interaction"] = (
+                feat_df["mean_lm_net_score"] * feat_df["total_risk_count"]
+            )
 
         # Merge with market data
         if not market_df.empty:

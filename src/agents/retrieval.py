@@ -15,7 +15,14 @@ logger = logging.getLogger(__name__)
 
 
 class RetrievalEngine:
-    """Hybrid retrieval engine combining FAISS dense search with BM25 sparse search."""
+    """Hybrid retrieval engine combining FAISS dense search with BM25 sparse search.
+
+    Features:
+    - Dense (FAISS) + Sparse (BM25) hybrid search with RRF fusion
+    - Cross-encoder re-ranking for improved precision
+    - Speaker-turn aware chunking for earnings calls
+    - Metadata filtering by section, role, speaker
+    """
 
     def __init__(self, project_root: str = None,
                  embedding_model: str = None):
@@ -32,12 +39,14 @@ class RetrievalEngine:
 
         self.embedding_model_name = embedding_model
         self._encoder = None
+        self._reranker = None
         self.index = None
         self.bm25 = None
         self.chunks_df = None
         self.embeddings = None
         self.dense_weight = self.config["retrieval"]["dense_weight"]
         self.sparse_weight = self.config["retrieval"]["sparse_weight"]
+        self.rerank_enabled = self.config["retrieval"].get("rerank", True)
 
     def _load_encoder(self):
         """Lazy-load sentence transformer model."""
@@ -47,10 +56,96 @@ class RetrievalEngine:
             self._encoder = SentenceTransformer(self.embedding_model_name)
         return self._encoder
 
-    def build_index(self, chunks_df: pd.DataFrame, batch_size: int = 64):
-        """Build FAISS index and BM25 index from chunks."""
+    def _load_reranker(self):
+        """Lazy-load cross-encoder re-ranking model."""
+        if self._reranker is None:
+            try:
+                from sentence_transformers import CrossEncoder
+                model_name = self.config["retrieval"].get(
+                    "rerank_model", "cross-encoder/ms-marco-MiniLM-L-6-v2")
+                logger.info(f"Loading re-ranker: {model_name}")
+                self._reranker = CrossEncoder(model_name)
+            except Exception as e:
+                logger.warning(f"Could not load re-ranker: {e}. Skipping re-ranking.")
+                self.rerank_enabled = False
+        return self._reranker
+
+    def _speaker_turn_chunks(self, chunks_df: pd.DataFrame,
+                             max_chunk_chars: int = 2000) -> pd.DataFrame:
+        """Re-chunk by speaker turns: merge consecutive chunks from same speaker.
+
+        Earnings calls have natural boundaries at speaker transitions.
+        This preserves context within each speaker's complete response
+        while splitting overly long turns.
+        """
+        if "speaker" not in chunks_df.columns:
+            return chunks_df
+
+        rows = []
+        current = None
+        chunk_idx = 0
+
+        for _, row in chunks_df.iterrows():
+            speaker = row.get("speaker", "Unknown")
+            section = row.get("section", "")
+
+            if current is None or current["speaker"] != speaker or current["section"] != section:
+                # New speaker turn — save previous and start new
+                if current is not None:
+                    rows.append(current)
+                    chunk_idx += 1
+                current = {
+                    "chunk_id": f"{row['ticker']}_{row['quarter']}_st{chunk_idx}",
+                    "ticker": row["ticker"],
+                    "quarter": row["quarter"],
+                    "speaker": speaker,
+                    "role": row.get("role", "Unknown"),
+                    "section": section,
+                    "text": row["text"],
+                    "chunk_index": chunk_idx,
+                }
+            else:
+                # Same speaker — merge text
+                merged = current["text"] + " " + row["text"]
+                if len(merged) <= max_chunk_chars:
+                    current["text"] = merged
+                else:
+                    # Speaker turn too long — split at sentence boundary
+                    rows.append(current)
+                    chunk_idx += 1
+                    current = {
+                        "chunk_id": f"{row['ticker']}_{row['quarter']}_st{chunk_idx}",
+                        "ticker": row["ticker"],
+                        "quarter": row["quarter"],
+                        "speaker": speaker,
+                        "role": row.get("role", "Unknown"),
+                        "section": section,
+                        "text": row["text"],
+                        "chunk_index": chunk_idx,
+                    }
+
+        if current is not None:
+            rows.append(current)
+
+        result = pd.DataFrame(rows)
+        logger.info(f"Speaker-turn chunking: {len(chunks_df)} → {len(result)} chunks")
+        return result
+
+    def build_index(self, chunks_df: pd.DataFrame, batch_size: int = 64,
+                    use_speaker_turns: bool = True):
+        """Build FAISS index and BM25 index from chunks.
+
+        Args:
+            chunks_df: DataFrame with text, speaker, role, section columns
+            batch_size: Embedding batch size
+            use_speaker_turns: If True, re-chunk by speaker turns for better context
+        """
         import faiss
         from rank_bm25 import BM25Okapi
+
+        # Re-chunk by speaker turns for financial-aware boundaries
+        if use_speaker_turns:
+            chunks_df = self._speaker_turn_chunks(chunks_df)
 
         self.chunks_df = chunks_df.reset_index(drop=True)
         texts = self.chunks_df["text"].tolist()
@@ -125,11 +220,33 @@ class RetrievalEngine:
             })
         return results
 
+    def rerank(self, query: str, results: List[Dict], top_k: int = 10) -> List[Dict]:
+        """Re-rank results using cross-encoder for improved precision."""
+        if not self.rerank_enabled or not results:
+            return results[:top_k]
+
+        reranker = self._load_reranker()
+        if reranker is None:
+            return results[:top_k]
+
+        pairs = [[query, r["text"]] for r in results]
+        try:
+            scores = reranker.predict(pairs)
+            for r, score in zip(results, scores):
+                r["rerank_score"] = float(score)
+            results = sorted(results, key=lambda x: x.get("rerank_score", 0), reverse=True)
+        except Exception as e:
+            logger.warning(f"Re-ranking failed: {e}")
+
+        return results[:top_k]
+
     def hybrid_search(self, query: str, top_k: int = 10,
-                      filters: Dict = None) -> List[Dict]:
-        """Combine dense + sparse search using Reciprocal Rank Fusion."""
-        dense_k = top_k * 3
-        sparse_k = top_k * 3
+                      filters: Dict = None, rerank: bool = True) -> List[Dict]:
+        """Combine dense + sparse search using Reciprocal Rank Fusion, then re-rank."""
+        # Over-retrieve for re-ranking
+        retrieve_k = top_k * 3 if (rerank and self.rerank_enabled) else top_k * 2
+        dense_k = retrieve_k
+        sparse_k = retrieve_k
 
         dense_results = self.dense_search(query, dense_k)
         sparse_results = self.sparse_search(query, sparse_k)
@@ -164,7 +281,14 @@ class RetrievalEngine:
         if filters:
             results = self.filter_by_metadata(results, filters)
 
-        return results[:top_k]
+        # Re-rank top candidates with cross-encoder
+        if rerank and self.rerank_enabled:
+            rerank_candidates = results[:top_k * 3]
+            results = self.rerank(query, rerank_candidates, top_k)
+        else:
+            results = results[:top_k]
+
+        return results
 
     def filter_by_metadata(self, results: List[Dict], filters: Dict) -> List[Dict]:
         """Filter results by metadata fields (ticker, quarter, role, section)."""

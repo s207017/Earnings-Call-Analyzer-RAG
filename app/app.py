@@ -9,7 +9,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Earnings Call Analyzer",
-    page_icon="",
+    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -17,7 +17,7 @@ st.set_page_config(
 sys.path.insert(0, str(Path(__file__).parent))
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from utils import apply_theme
+from utils import apply_theme, parse_quarter, find_missing_quarters, sort_quarters, quarter_to_str
 
 apply_theme()
 
@@ -123,14 +123,14 @@ def _extract_text(file_bytes, file_name):
         return file_bytes.decode("utf-8", errors="replace")
 
 
-_PARSER_VERSION = 5  # bump to invalidate cache after parser changes
+_PARSER_VERSION = 10  # bump to invalidate cache after parser changes
 
-@st.cache_data
-def parse_and_analyze(text, ticker, quarter, _version=_PARSER_VERSION):
+@st.cache_data(show_spinner="Analyzing transcript — sentiment, risk detection, and NLP scoring...")
+def analyze_transcript(text, ticker, quarter, _version=_PARSER_VERSION):
     """Parse transcript into chunks and run sentiment + risk analysis."""
     from src.agents.transcript_ingestion import TranscriptParser
     from src.agents.sentiment_analysis import SentimentAnalyzer
-    from src.agents.risk_detection import RiskDetector
+    from src.agents.risk_detection import RiskDetector, SemanticRiskDetector
 
     parser = TranscriptParser()
     chunks = parser.parse_transcript(text, ticker, quarter)
@@ -148,7 +148,19 @@ def parse_and_analyze(text, ticker, quarter, _version=_PARSER_VERSION):
     vader_results = [analyzer.vader_sentiment(t) for t in texts]
     vader_df = pd.DataFrame(vader_results)
 
-    sent_df = pd.concat([chunks_df.reset_index(drop=True), lm_df, vader_df], axis=1)
+    # FinBERT (transformer-based)
+    try:
+        finbert_results = analyzer.finbert_sentiment(texts)
+        finbert_df = pd.DataFrame(finbert_results)
+    except Exception as e:
+        import logging
+        logging.getLogger(__name__).warning(f"FinBERT unavailable: {e}")
+        finbert_df = pd.DataFrame()
+
+    dfs = [chunks_df.reset_index(drop=True), lm_df, vader_df]
+    if not finbert_df.empty:
+        dfs.append(finbert_df)
+    sent_df = pd.concat(dfs, axis=1)
 
     detector = RiskDetector()
     all_categories, all_counts, all_intensities, all_details = [], [], [], []
@@ -165,19 +177,81 @@ def parse_and_analyze(text, ticker, quarter, _version=_PARSER_VERSION):
         all_intensities.append(intensity)
         all_details.append(active)
 
+    # Semantic risk detection (embedding-based) — merge with keyword results
+    try:
+        sem_detector = SemanticRiskDetector()
+        sem_results = sem_detector.detect_semantic_risks(texts)
+        for i, sem_dets in enumerate(sem_results):
+            kw_cats = set(all_categories[i])
+            for sd in sem_dets:
+                if sd["category"] not in kw_cats:
+                    # New category only found by semantic — add to counts
+                    all_categories[i].append(sd["category"])
+                    all_counts[i] += 1
+                    all_intensities[i] += 2  # medium weight
+                    all_details[i].append({
+                        "category": sd["category"],
+                        "keyword_matched": f"[semantic: {sd['differential']:.3f}]",
+                        "severity": "medium",
+                        "negated": False,
+                        "context_snippet": texts[i][:300],
+                        "detection_method": "semantic",
+                        "matched_anchor": sd.get("matched_anchor", ""),
+                        "risk_similarity": sd.get("risk_similarity", 0),
+                    })
+                else:
+                    # Category already found by keyword — record as semantic confirmation
+                    # (does NOT increase risk_count/intensity, but shows RAG also detected it)
+                    all_details[i].append({
+                        "category": sd["category"],
+                        "keyword_matched": f"[semantic confirmation: {sd['differential']:.3f}]",
+                        "severity": "medium",
+                        "negated": False,
+                        "context_snippet": texts[i][:300],
+                        "detection_method": "semantic",
+                        "is_confirmation": True,
+                        "matched_anchor": sd.get("matched_anchor", ""),
+                        "risk_similarity": sd.get("risk_similarity", 0),
+                    })
+    except Exception as e:
+        import logging
+        logging.getLogger(__name__).warning(f"Semantic risk detection unavailable: {e}")
+
     sent_df["risk_categories"] = all_categories
     sent_df["risk_count"] = all_counts
     sent_df["risk_intensity"] = all_intensities
     sent_df["risk_details"] = all_details
+
+    # Sentence-level FinBERT for highlighting
+    try:
+        sentence_results = analyzer.finbert_sentence_sentiment(texts)
+        sent_df["finbert_sentences"] = sentence_results
+    except Exception as e:
+        import logging
+        logging.getLogger(__name__).warning(f"FinBERT sentence scoring unavailable: {e}")
+        sent_df["finbert_sentences"] = [[] for _ in range(len(sent_df))]
 
     return chunks_df, sent_df
 
 
 # ── Session state initialization ──
 for key in ["upload_raw_text", "upload_filename", "upload_ticker", "upload_quarter",
-            "upload_chunks_df", "upload_analyzed_df", "upload_qa_messages", "upload_rag_engine"]:
+            "upload_chunks_df", "upload_analyzed_df", "upload_qa_messages", "upload_rag_engine",
+            "_analyzing"]:
     if key not in st.session_state:
         st.session_state[key] = None
+
+# Multi-quarter state
+if "multi_mode" not in st.session_state:
+    st.session_state.multi_mode = False
+if "multi_quarters" not in st.session_state:
+    st.session_state.multi_quarters = {}  # {quarter_str: {raw_text, filename, chunks_df, analyzed_df}}
+if "multi_quarter_order" not in st.session_state:
+    st.session_state.multi_quarter_order = []  # sorted list of quarter strings
+if "multi_ticker" not in st.session_state:
+    st.session_state.multi_ticker = ""
+if "multi_missing_quarters" not in st.session_state:
+    st.session_state.multi_missing_quarters = []
 
 
 # ══════════════════════════════════════════════════
@@ -188,53 +262,336 @@ st.caption("Upload a transcript to get started with sentiment analysis, risk det
 
 st.divider()
 
-# ── Upload ──
-uploaded_file = st.file_uploader(
-    "Upload a PDF or TXT earnings call transcript",
+# ── Upload (supports single or multiple files) ──
+uploaded_files = st.file_uploader(
+    "Upload earnings call transcripts (PDF or TXT)",
     type=["pdf", "txt"],
-    help="Supports Motley Fool, Seeking Alpha, and company IR PDF formats",
+    accept_multiple_files=True,
+    help="Upload one transcript for single-quarter analysis, or multiple for cross-quarter trend analysis.",
 )
 
-if uploaded_file is not None:
-    if (st.session_state.upload_filename != uploaded_file.name
-            or st.session_state.upload_raw_text is None):
-        raw_text = _extract_text(uploaded_file.getvalue(), uploaded_file.name)
-        if raw_text and len(raw_text) >= 100:
-            st.session_state.upload_raw_text = raw_text
-            st.session_state.upload_filename = uploaded_file.name
-            auto_ticker, auto_quarter = detect_ticker_and_quarter(raw_text, uploaded_file.name)
-            st.session_state.upload_ticker = auto_ticker
-            st.session_state.upload_quarter = auto_quarter
+
+def _clear_all_state():
+    """Reset all upload and multi-quarter state."""
+    for key in ["upload_raw_text", "upload_filename", "upload_ticker", "upload_quarter",
+                "upload_chunks_df", "upload_analyzed_df", "upload_qa_messages", "upload_rag_engine"]:
+        st.session_state[key] = None
+    st.session_state.multi_mode = False
+    st.session_state.multi_quarters = {}
+    st.session_state.multi_quarter_order = []
+    st.session_state.multi_ticker = ""
+    st.session_state.multi_missing_quarters = []
+
+
+def _process_uploaded_files(files):
+    """Extract text and detect ticker/quarter for each uploaded file.
+
+    Returns list of dicts: [{filename, raw_text, ticker, quarter}, ...]
+    """
+    results = []
+    for f in files:
+        raw_text = _extract_text(f.getvalue(), f.name)
+        if not raw_text or len(raw_text) < 100:
+            st.warning(f"Could not extract text from **{f.name}** — skipping.")
+            continue
+        ticker, quarter = detect_ticker_and_quarter(raw_text, f.name)
+        results.append({
+            "filename": f.name,
+            "raw_text": raw_text,
+            "ticker": ticker,
+            "quarter": quarter,
+        })
+    return results
+
+
+# ── Determine if new files were uploaded ──
+if uploaded_files:
+    current_names = sorted([f.name for f in uploaded_files])
+    prev_names = st.session_state.get("_prev_upload_names", [])
+
+    if current_names != prev_names:
+        # New upload detected — process files
+        st.session_state["_prev_upload_names"] = current_names
+        with st.spinner("Reading and analyzing uploaded transcripts..."):
+            file_infos = _process_uploaded_files(uploaded_files)
+
+        if not file_infos:
+            st.error("No valid transcripts found in uploaded files.")
+            st.stop()
+
+        if len(file_infos) == 1:
+            # ── Single file mode ──
+            info = file_infos[0]
+            st.session_state.multi_mode = False
+            st.session_state.multi_quarters = {}
+            st.session_state.multi_quarter_order = []
+            st.session_state.multi_ticker = ""
+            st.session_state.multi_missing_quarters = []
+            st.session_state.upload_raw_text = info["raw_text"]
+            st.session_state.upload_filename = info["filename"]
+            st.session_state.upload_ticker = info["ticker"]
+            st.session_state.upload_quarter = info["quarter"]
             st.session_state.upload_chunks_df = None
             st.session_state.upload_analyzed_df = None
             st.session_state.upload_qa_messages = []
             st.session_state.upload_rag_engine = None
         else:
-            st.error("Could not extract sufficient text from the uploaded file.")
-            st.stop()
+            # ── Multi-file mode ──
+            # Validate: all files must have detectable tickers and quarters
+            tickers_found = set()
+            quarters_found = {}
+            issues = []
+
+            for info in file_infos:
+                if not info["ticker"]:
+                    issues.append(f"**{info['filename']}**: Could not detect ticker.")
+                if not info["quarter"]:
+                    issues.append(f"**{info['filename']}**: Could not detect quarter.")
+                elif not parse_quarter(info["quarter"]):
+                    issues.append(f"**{info['filename']}**: Invalid quarter format '{info['quarter']}'.")
+                else:
+                    if info["quarter"] in quarters_found:
+                        issues.append(f"**{info['filename']}**: Duplicate quarter {info['quarter']} "
+                                      f"(also in {quarters_found[info['quarter']]['filename']}).")
+                    else:
+                        quarters_found[info["quarter"]] = info
+                if info["ticker"]:
+                    tickers_found.add(info["ticker"])
+
+            # Validate same company
+            if len(tickers_found) > 1:
+                issues.append(f"Multiple tickers detected: {', '.join(sorted(tickers_found))}. "
+                              f"All transcripts must be from the same company.")
+
+            if issues:
+                st.error("Issues detected with uploaded files:")
+                for issue in issues:
+                    st.markdown(f"- {issue}")
+                st.stop()
+
+            # All valid — set multi-quarter state
+            common_ticker = tickers_found.pop()
+            quarter_list = sort_quarters(list(quarters_found.keys()))
+            missing = find_missing_quarters(quarter_list)
+
+            st.session_state.multi_mode = True
+            st.session_state.multi_ticker = common_ticker
+            st.session_state.multi_quarter_order = quarter_list
+            st.session_state.multi_missing_quarters = missing
+            st.session_state.multi_quarters = {}
+            for q_str, info in quarters_found.items():
+                st.session_state.multi_quarters[q_str] = {
+                    "filename": info["filename"],
+                    "raw_text": info["raw_text"],
+                    "chunks_df": None,
+                    "analyzed_df": None,
+                }
+
+            # Also set single-file state to latest quarter for backward compat with pages
+            latest = quarter_list[-1]
+            st.session_state.upload_raw_text = quarters_found[latest]["raw_text"]
+            st.session_state.upload_filename = quarters_found[latest]["filename"]
+            st.session_state.upload_ticker = common_ticker
+            st.session_state.upload_quarter = latest
+            st.session_state.upload_chunks_df = None
+            st.session_state.upload_analyzed_df = None
+            st.session_state.upload_qa_messages = []
+            st.session_state.upload_rag_engine = None
+
+        # Single file needs rerun to show ticker/quarter input fields
+        # Multi-file flows directly into the analysis section below (no blank flash)
+        if not st.session_state.multi_mode:
+            st.rerun()
+# (Don't clear state when uploader is empty — files don't persist across page navigation.
+#  State is only cleared via the explicit "Clear" buttons.)
 
 
 # ── Nothing uploaded yet ──
-if st.session_state.upload_raw_text is None:
+if st.session_state.upload_raw_text is None and not st.session_state.multi_mode:
     st.markdown("---")
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.subheader("Sentiment")
-        st.markdown("Loughran-McDonald, VADER, and FinBERT scoring per chunk")
+        st.markdown(
+            '<div style="background:#181825;border:1px solid rgba(66,133,244,.2);border-radius:12px;padding:24px">'
+            '<div style="font-size:24px;margin-bottom:8px">📊</div>'
+            '<div style="color:#f1f5f9;font-size:16px;font-weight:700;margin-bottom:8px">Sentiment</div>'
+            '<div style="color:#94a3b8;font-size:13px;line-height:1.6">'
+            'Three NLP models (LM, VADER, FinBERT) with management vs analyst gap, '
+            'prepared vs Q&A credibility shift, and cross-quarter momentum tracking'
+            '</div></div>', unsafe_allow_html=True)
     with col2:
-        st.subheader("Risk Detection")
-        st.markdown("255 keywords across 10 financial risk categories")
+        st.markdown(
+            '<div style="background:#181825;border:1px solid rgba(239,68,68,.2);border-radius:12px;padding:24px">'
+            '<div style="font-size:24px;margin-bottom:8px">🛡️</div>'
+            '<div style="color:#f1f5f9;font-size:16px;font-weight:700;margin-bottom:8px">Risk Detection</div>'
+            '<div style="color:#94a3b8;font-size:13px;line-height:1.6">'
+            '255 keywords + semantic RAG detection across 10 risk categories, '
+            'with severity scoring, management vs analyst exposure, and explainable anchor matching'
+            '</div></div>', unsafe_allow_html=True)
     with col3:
-        st.subheader("RAG Q&A")
-        st.markdown("Ask questions answered by the transcript with source citations")
+        st.markdown(
+            '<div style="background:#181825;border:1px solid rgba(139,92,246,.2);border-radius:12px;padding:24px">'
+            '<div style="font-size:24px;margin-bottom:8px">💬</div>'
+            '<div style="color:#f1f5f9;font-size:16px;font-weight:700;margin-bottom:8px">RAG Q&A</div>'
+            '<div style="color:#94a3b8;font-size:13px;line-height:1.6">'
+            'Hybrid FAISS + BM25 search with cross-encoder re-ranking. '
+            'Ask questions and get cited answers powered by Llama 3.2 (local)'
+            '</div></div>', unsafe_allow_html=True)
     with col4:
-        st.subheader("Benchmark")
-        st.markdown("Compare against 1,100+ historical earnings calls")
+        st.markdown(
+            '<div style="background:#181825;border:1px solid rgba(52,211,153,.2);border-radius:12px;padding:24px">'
+            '<div style="font-size:24px;margin-bottom:8px">📈</div>'
+            '<div style="color:#f1f5f9;font-size:16px;font-weight:700;margin-bottom:8px">Benchmark</div>'
+            '<div style="color:#94a3b8;font-size:13px;line-height:1.6">'
+            'ML direction prediction (UP/DOWN) trained on 13,000+ earnings events. '
+            'Sentiment percentile vs 1,100+ historical calls with portfolio backtest'
+            '</div></div>', unsafe_allow_html=True)
     st.stop()
 
 
 # ══════════════════════════════════════════════════
-# TRANSCRIPT LOADED
+# MULTI-QUARTER MODE
+# ══════════════════════════════════════════════════
+if st.session_state.multi_mode:
+    ticker = st.session_state.multi_ticker
+    quarter_order = st.session_state.multi_quarter_order
+    missing = st.session_state.multi_missing_quarters
+
+    st.success(f"Loaded **{len(quarter_order)} transcripts** for **{ticker}**: "
+               f"{', '.join(quarter_order)}")
+
+    # Show file details
+    with st.expander("Uploaded files"):
+        for q in quarter_order:
+            info = st.session_state.multi_quarters[q]
+            st.markdown(f"- **{q}**: {info['filename']} ({len(info['raw_text']):,} chars)")
+
+    # Gap warning
+    if missing:
+        missing_str = ", ".join(missing)
+        st.warning(f"Non-consecutive quarters detected. Missing: **{missing_str}**. "
+                   f"Cross-quarter trend analysis may have gaps.")
+
+    # Clear button
+    if st.button("Clear All Transcripts"):
+        _clear_all_state()
+        st.session_state["_prev_upload_names"] = []
+        st.rerun()
+
+    # ── Parse & Analyze all quarters ──
+    needs_analysis = any(
+        st.session_state.multi_quarters[q]["analyzed_df"] is None for q in quarter_order
+    )
+    all_analyzed = True
+
+    if needs_analysis:
+        status_container = st.empty()
+        progress_bar = st.progress(0, text="Analyzing transcripts...")
+
+        for i, q in enumerate(quarter_order):
+            qdata = st.session_state.multi_quarters[q]
+            if qdata["analyzed_df"] is not None:
+                progress_bar.progress((i + 1) / len(quarter_order),
+                                      text=f"[{i+1}/{len(quarter_order)}] {q} — cached")
+                continue
+
+            progress_bar.progress(i / len(quarter_order),
+                                  text=f"[{i+1}/{len(quarter_order)}] Analyzing {q}... (parsing, sentiment, risk detection)")
+            chunks_df, analyzed_df = analyze_transcript(qdata["raw_text"], ticker, q)
+
+            if analyzed_df.empty:
+                st.error(f"Could not parse transcript for {q}. Format not recognized.")
+                all_analyzed = False
+                continue
+
+            st.session_state.multi_quarters[q]["chunks_df"] = chunks_df
+            st.session_state.multi_quarters[q]["analyzed_df"] = analyzed_df
+            progress_bar.progress((i + 1) / len(quarter_order),
+                                  text=f"[{i+1}/{len(quarter_order)}] {q} — done")
+
+        progress_bar.empty()
+        status_container.empty()
+
+    if not all_analyzed:
+        st.stop()
+
+    # Set single-file state to latest quarter for page compatibility
+    latest_q = quarter_order[-1]
+    latest_data = st.session_state.multi_quarters[latest_q]
+    st.session_state.upload_chunks_df = latest_data["chunks_df"]
+    st.session_state.upload_analyzed_df = latest_data["analyzed_df"]
+    st.session_state["_analyzed_ticker"] = ticker
+    st.session_state["_analyzed_quarter"] = latest_q
+
+    # ══════════════════════════════════════════════════
+    # MULTI-QUARTER SUMMARY DASHBOARD
+    # ══════════════════════════════════════════════════
+    st.divider()
+    st.subheader(f"Cross-Quarter Overview — {ticker}")
+
+    # Summary metrics per quarter
+    summary_rows = []
+    for q in quarter_order:
+        adf = st.session_state.multi_quarters[q]["analyzed_df"]
+        summary_rows.append({
+            "Quarter": q,
+            "Chunks": len(adf),
+            "Speakers": adf["speaker"].nunique(),
+            "Avg LM Sentiment": adf["lm_net_score"].mean(),
+            "Avg VADER": adf["vader_compound"].mean(),
+            "Risk Signals": int(adf["risk_count"].sum()),
+            "Risk Intensity": int(adf["risk_intensity"].sum()),
+        })
+
+    summary_df = pd.DataFrame(summary_rows)
+    st.dataframe(
+        summary_df.style.format({
+            "Avg LM Sentiment": "{:.4f}",
+            "Avg VADER": "{:.4f}",
+        }),
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    # Trend sparklines
+    import plotly.graph_objects as go
+    from utils import PLOTLY_TEMPLATE, styled_plotly
+
+    col1, col2 = st.columns(2)
+    with col1:
+        fig_sent = go.Figure()
+        fig_sent.add_trace(go.Scatter(
+            x=summary_df["Quarter"], y=summary_df["Avg LM Sentiment"],
+            mode="lines+markers", name="LM Net", marker=dict(size=8, color="#4285f4"),
+            line=dict(color="#4285f4", width=2),
+        ))
+        fig_sent.add_trace(go.Scatter(
+            x=summary_df["Quarter"], y=summary_df["Avg VADER"],
+            mode="lines+markers", name="VADER", marker=dict(size=8, color="#ff9900"),
+            line=dict(color="#ff9900", width=2),
+        ))
+        fig_sent.update_layout(template=PLOTLY_TEMPLATE, title="Sentiment Trend",
+                               yaxis_title="Score")
+        st.plotly_chart(styled_plotly(fig_sent), use_container_width=True)
+
+    with col2:
+        fig_risk = go.Figure()
+        fig_risk.add_trace(go.Bar(
+            x=summary_df["Quarter"], y=summary_df["Risk Signals"],
+            marker_color="#ef4444", name="Risk Signals",
+        ))
+        fig_risk.update_layout(template=PLOTLY_TEMPLATE, title="Risk Signals per Quarter",
+                               yaxis_title="Count")
+        st.plotly_chart(styled_plotly(fig_risk), use_container_width=True)
+
+    st.markdown("---")
+    st.markdown("Use the **sidebar** to navigate to detailed analysis pages. "
+                "Each page will show cross-quarter trends automatically.")
+    st.stop()
+
+
+# ══════════════════════════════════════════════════
+# SINGLE-QUARTER MODE (original flow)
 # ══════════════════════════════════════════════════
 raw_text = st.session_state.upload_raw_text
 
@@ -248,18 +605,27 @@ if auto_ticker or auto_quarter:
 
 col1, col2, col3 = st.columns([2, 2, 1])
 ticker_input = col1.text_input("Ticker Symbol", value=auto_ticker,
-                                placeholder="e.g. AAPL").strip().upper()
+                                placeholder="e.g. AAPL",
+                                key="ticker_input_field").strip().upper()
 quarter_input = col2.text_input("Quarter", value=auto_quarter,
-                                 placeholder="e.g. 2024Q3").strip().upper()
+                                 placeholder="e.g. 2024Q3",
+                                 key="quarter_input_field").strip().upper()
+
+# Persist edits so they survive page navigation
+if ticker_input:
+    st.session_state.upload_ticker = ticker_input
+if quarter_input:
+    st.session_state.upload_quarter = quarter_input
 
 if col3.button("Clear Transcript"):
-    for key in ["upload_raw_text", "upload_filename", "upload_ticker", "upload_quarter",
-                "upload_chunks_df", "upload_analyzed_df", "upload_qa_messages", "upload_rag_engine"]:
-        st.session_state[key] = None
+    _clear_all_state()
+    st.session_state["_prev_upload_names"] = []
     st.rerun()
 
+status_placeholder = st.empty()
+
 if not ticker_input or not quarter_input:
-    st.warning("Please confirm or enter the ticker symbol and quarter to proceed.")
+    status_placeholder.warning("Please confirm or enter the ticker symbol and quarter to proceed.")
     st.stop()
 
 
@@ -271,8 +637,9 @@ if (st.session_state.upload_analyzed_df is not None
     chunks_df = st.session_state.upload_chunks_df
     analyzed_df = st.session_state.upload_analyzed_df
 else:
-    with st.spinner("Parsing transcript and running analysis..."):
-        chunks_df, analyzed_df = parse_and_analyze(raw_text, ticker_input, quarter_input)
+    status_placeholder.empty()
+    with st.spinner("Parsing transcript, running sentiment (LM + VADER + FinBERT) and risk analysis... This may take 10-20 seconds."):
+        chunks_df, analyzed_df = analyze_transcript(raw_text, ticker_input, quarter_input)
     st.session_state.upload_chunks_df = chunks_df
     st.session_state.upload_analyzed_df = analyzed_df
     st.session_state["_analyzed_ticker"] = ticker_input

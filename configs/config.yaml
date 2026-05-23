@@ -62,6 +62,8 @@ retrieval:
   dense_weight: 0.6
   sparse_weight: 0.4
   max_context_tokens: 3000
+  rerank: true
+  rerank_model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
 
 sentiment:
   finbert_batch_size: 16
